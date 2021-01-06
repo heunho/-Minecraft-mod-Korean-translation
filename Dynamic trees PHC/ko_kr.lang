@@ -1,0 +1,124 @@
+# 한글패치 : 흔호
+# 블로그 주소 : https://eye-it.tistory.com
+# 유튜브 주소 : https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
+
+death.attack.fallingFruitCoconut=%1$s이(가) 떨어지는 코코넛으로 인해 머리가 찢어졌습니다.
+death.attack.fallingFruitDurian=%1$s이(가) 떨어지는 두리안에 머리가 찍혔습니다.
+death.attack.fallingFruitJackfruit=%1$s이(가) 떨어지는 잭프루트에 의해 머리가 찢어졌습니다.
+death.attack.fallingFruitBreadfruit=%1$s이(가) 떨어지는 빵나무 열매로 인해 머리가 찢어졌습니다.
+
+item.dynamictreesphc:appleseed.name=사과 나무 씨앗
+item.dynamictreesphc:almondseed.name=아몬드 나무 씨앗
+item.dynamictreesphc:apricotseed.name=살구 나무 씨앗
+item.dynamictreesphc:avocadoseed.name=아보카도 나무 씨앗
+item.dynamictreesphc:bananaseed.name=바나나 나무 씨앗
+item.dynamictreesphc:breadfruitseed.name=브레드프루트 씨앗
+item.dynamictreesphc:cashewseed.name=캐슈 나무 씨앗
+item.dynamictreesphc:cherryseed.name=체리 나무 씨앗
+item.dynamictreesphc:chestnutseed.name=밤 나무 씨앗
+item.dynamictreesphc:coconutseed.name=코코넛 나무 씨앗
+item.dynamictreesphc:dateseed.name=대추야자 나무 씨앗
+item.dynamictreesphc:dragonfruitseed.name=용과 나무 씨앗
+item.dynamictreesphc:durianseed.name=용과 나무 씨앗
+item.dynamictreesphc:figseed.name=무화과 나무 씨앗
+item.dynamictreesphc:gooseberryseed.name=구즈베리 나무 씨앗
+item.dynamictreesphc:grapefruitseed.name=자몽 나무 씨앗
+item.dynamictreesphc:guavaseed.name=구아바 씨앗
+item.dynamictreesphc:hazelnutseed.name=헤이즐넛 씨앗
+item.dynamictreesphc:jackfruitseed.name=잭프루트 씨앗
+item.dynamictreesphc:lemonseed.name=레몰 나무 씨앗
+item.dynamictreesphc:limeseed.name=라임 나무 씨앗
+item.dynamictreesphc:lycheeseed.name=여지 씨앗
+item.dynamictreesphc:mangoseed.name=망고 나무 씨앗
+item.dynamictreesphc:nutmegseed.name=육두구 나무 씨앗
+item.dynamictreesphc:oliveseed.name=올리브 나무 씨앗
+item.dynamictreesphc:orangeseed.name=오렌지 나무 씨앗
+item.dynamictreesphc:papayaseed.name=파파야 나무 씨앗
+item.dynamictreesphc:passionfruitseed.name=패션프루트 씨앗
+item.dynamictreesphc:pawpawseed.name=포포 씨앗
+item.dynamictreesphc:peachseed.name=복숭아 나무 씨앗
+item.dynamictreesphc:pearseed.name=배 나무 씨앗
+item.dynamictreesphc:pecanseed.name=피칸 나무 씨앗
+item.dynamictreesphc:peppercornseed.name=후추 나무 씨앗
+item.dynamictreesphc:persimmonseed.name=감 나무 씨앗
+item.dynamictreesphc:pistachioseed.name=피스타치오 나무 씨앗
+item.dynamictreesphc:plumseed.name=자두 나무 씨앗
+item.dynamictreesphc:pomegranateseed.name=석류 나무 씨앗
+item.dynamictreesphc:rambutanseed.name=람부탄 씨앗
+item.dynamictreesphc:soursopseed.name=가시여지 씨앗
+item.dynamictreesphc:starfruitseed.name=오렴자 나무 씨앗
+item.dynamictreesphc:vanillabeanseed.name=바닐라 나무 씨앗
+item.dynamictreesphc:walnutseed.name=호두 나무 씨앗
+item.dynamictreesphc:spiderwebseed.name=거미줄 나무 씨앗
+item.dynamictreesphc:tamarindseed.name=타마린드 씨앗
+
+item.dynamictreesphc:cinnamonseed.name=계피 나무 씨앗
+item.dynamictreesphc:mapleseed.name=단풍 나무 씨앗
+item.dynamictreesphc:paperbarkseed.name=페이퍼박 나무 씨앗
+
+species.dynamictreesphc:apple.name=사과
+species.dynamictreesphc:almond.name=아몬드
+species.dynamictreesphc:apricot.name=살구
+species.dynamictreesphc:avocado.name=아보카도
+species.dynamictreesphc:banana.name=바나나
+species.dynamictreesphc:breadfruit.name=빵나무 열매
+species.dynamictreesphc:cashew.name=캐슈
+species.dynamictreesphc:cherry.name=체리
+species.dynamictreesphc:chestnut.name=밤
+species.dynamictreesphc:coconut.name=코코넛
+species.dynamictreesphc:date.name=대추야자
+species.dynamictreesphc:dragonfruit.name=용과
+species.dynamictreesphc:durian.name=두리안
+species.dynamictreesphc:fig.name=무화과
+species.dynamictreesphc:gooseberry.name=구즈베리
+species.dynamictreesphc:grapefruit.name=자몽
+species.dynamictreesphc:guava.name=구아바
+species.dynamictreesphc:hazelnut.name=헤이즐넛
+species.dynamictreesphc:jackfruit.name=잭프루트
+species.dynamictreesphc:lemon.name=레몬
+species.dynamictreesphc:lime.name=라임
+species.dynamictreesphc:lychee.name=리치
+species.dynamictreesphc:mango.name=망고
+species.dynamictreesphc:nutmeg.name=육두구
+species.dynamictreesphc:olive.name=올리브
+species.dynamictreesphc:orange.name=오렌지
+species.dynamictreesphc:papaya.name=파파야
+species.dynamictreesphc:passionfruit.name=패션프루트
+species.dynamictreesphc:pawpaw.name=포포열매
+species.dynamictreesphc:peach.name=복숭아
+species.dynamictreesphc:pear.name=배
+species.dynamictreesphc:pecan.name=피칸
+species.dynamictreesphc:peppercorn.name=후추
+species.dynamictreesphc:persimmon.name=감
+species.dynamictreesphc:pistachio.name=피스타치오
+species.dynamictreesphc:plum.name=자두
+species.dynamictreesphc:pomegranate.name=석류
+species.dynamictreesphc:rambutan.name=람부탄
+species.dynamictreesphc:soursop.name=가시여지
+species.dynamictreesphc:starfruit.name=오렴자
+species.dynamictreesphc:vanillabean.name=바닐라
+species.dynamictreesphc:walnut.name=호두
+species.dynamictreesphc:spiderweb.name=거미줄
+species.dynamictreesphc:tamarind.name=타마린드
+
+species.dynamictreesphc:cinnamon.name=시나몬
+species.dynamictreesphc:maple.name=단풍
+species.dynamictreesphc:paperbark.name=페이퍼박
+
+tile.dynamictreesphc:leaves0.name=나뭇잎
+tile.dynamictreesphc:leaves_dragonfruit.name=용과 선인장
+tile.dynamictreesphc:leaves_palm.name=야자 나뭇잎
+
+tile.dynamictreesphc:cinnamonbranch.name=현실적인 계피 나무
+tile.dynamictreesphc:maplebranch.name=현실적인 단풍 나무
+tile.dynamictreesphc:paperbarkbranch.name=현실적인 페이퍼박 나무
+tile.dynamictreesphc:paperbarkcutbranch.name=현실적인 페이퍼박 나무
+tile.dynamictreesphc:dragonfruitbranch.name=현실적인 용과 선인장
+tile.dynamictreesphc:palmbranch.name=현실적인 야자 나무
+
+tile.dynamictreesphc:maple_spile.name=메이플 시럽 마개
+tile.dynamictreesphc:maple_spile_bucket.name=메이플 시럽 마개
+tile.dynamictreesphc:passionfruit_vine.name=패션프루트 덩굴
+
+item.dynamictreesphc:peppercornripeitem.name=잘익은 후추
+tooltip.dynamictreesphc:peppercornripeitem.name=후추가 너무 익었습니다. 후추는 초록색일 때 수확해야합니다.
