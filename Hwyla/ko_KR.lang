@@ -1,0 +1,94 @@
+# 한글패치 : 흔호
+# 블로그 주소 : https://eye-it.tistory.com
+# 유튜브 주소 : https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
+
+screen.button.waila=Waila
+screen.button.modules=모듈
+screen.label.scale=규모
+screen.label.dragtuto=HUD를 드래그하여 위치를 설정합니다.
+
+screen.button.default=기본
+screen.button.cancel=취소
+screen.button.ok=확인
+screen.button.yes=Yes
+screen.button.no=No
+screen.button.back=뒤로
+screen.button.hidden=숨기기
+screen.button.visible=보이기
+screen.button.maintained=유지
+screen.button.toggled=토글
+screen.hwyla.warning=§cWarning:§r Hwyla라는 Waila 포크를 사용하고 있습니다. 이 화면의 왼쪽 상단에있는 버튼을 클릭하면 변경 사항 (대부분 전체) 목록을 볼 수 있습니다.
+
+choice.showhidewaila=Waila 보이기/숨기기
+choice.showhideidmeta=ID 표시:메타 데이터
+choice.toggledmaintained=토글 / 유지
+choice.showliquids=액체
+choice.shifttoggledblock=Sneak toggle blocks
+choice.shifttoggledents=Sneak toggle entities
+choice.hidefromlist=플레이어 목록에서 숨기기
+choice.hidefromdebug=디버그 메뉴에서 숨기기
+choice.showitem=디스플레이 아이템
+choice.tts=블록 내레이션을 수행
+choice.format.modname=모드 이름
+choice.format.blockname=블럭 이름
+choice.format.fluidname=액체 이름
+choice.format.entityname=엔티티 이름
+choice.format.metadata=메타 데이터
+choice.format.background=배경색
+choice.format.gradienttop=그라디언트 색상(위)
+choice.format.gradientbottom=그라디언트 색상 (아래)
+choice.format.font=텍스트 색상
+screen.button.configureaspect=측면 구성...
+screen.button.configureformat=컨텐츠 포맷...
+screen.button.exporttheme=테마 내보내기
+
+waila.keybind.wailaconfig=구성화면
+waila.keybind.wailadisplay=보이기/숨기기
+waila.keybind.liquid=액체 표시
+waila.keybind.recipe=레시피 보기
+waila.keybind.usage=사용법 보기
+
+client.msg.norecipe=레시피가 없습니다.
+client.msg.nousage=사용법이 없습니다.
+
+hud.msg.empty=<비어 있음>
+hud.msg.health=체력
+hud.msg.growth=성장
+hud.msg.growth.value=%.0f %%
+hud.msg.mature=100%%
+hud.msg.off=끄기
+hud.msg.on=켜기
+hud.msg.state=상태
+hud.msg.delay=지연
+hud.msg.comparator=비교기
+hud.msg.substractor=감산기
+hud.msg.record=기록
+hud.msg.toomuch=더보기...
+hud.msg.power=힘
+hud.msg.offers=제안
+hud.msg.demands=요구 사항
+hud.msg.career=경력: %s
+
+hud.item.melonstem=수박 줄기
+hud.item.pumpkinstem=호박 줄기
+
+cfg.theme.vanilla=바닐라 테마
+cfg.theme.dark=다크 테마
+
+option.vanilla.spawntype=스포너 유형
+option.vanilla.growthvalue=성장 가치
+option.vanilla.leverstate=레버 상태
+option.vanilla.repeater=리피터 지연
+option.vanilla.comparator=비교 모드
+option.vanilla.redstone=레드 스톤 파워
+option.vanilla.jukebox=주크 박스 디스크
+option.vanilla.silverfish=좀벌레 숨기기
+option.vanilla.furnacedisplay=퍼니스 진행률 보기
+option.general.showents=엔티티보기
+option.general.showhp=엔티티 상태 표시
+option.general.showcrop=작물 성장보기
+option.general.registry=레지스트리 데이터 보기
+option.capability.tankinfo=탱크 데이터 보기
+option.capability.energyinfo=에너지 데이터 보기
+
+nei.options.keys.showenchant=매혹적인 값을 표시
