@@ -1,0 +1,845 @@
+{
+	"bookmark_start_section": "introduction",
+
+	"colours": {
+		"text": "#000000",
+		"caption": "#666666",
+		"hyperlink": "#601ba0",
+		"highlight": "#dd4c1d",
+		"new_section": "#ee88f7"
+	},
+
+	"images": {
+		"workbench": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/arcane_workbench.png",
+			"caption": "신비한 작업대",
+			"u": 0,
+			"v": 0,
+			"width": 110,
+			"height": 110
+		},
+		"crystal_ore": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/crystal_ore.png",
+			"caption": "수정 광석",
+			"u": 0,
+			"v": 0,
+			"width": 64,
+			"height": 64
+		},
+		"magic_crystal": {
+			"location": "ebwizardry:textures/items/crystal_magic.png",
+			"caption": "마법 수정",
+			"u": 6,
+			"v": 6,
+			"width": 36,
+			"height": 33,
+			"texture_width": 48,
+			"texture_height": 48,
+			"border": false
+		},
+		"magic_wand": {
+			"location": "ebwizardry:textures/items/wand_novice.png",
+			"caption": "마법 지팡이",
+			"u": 0,
+			"v": 0,
+			"width": 64,
+			"height": 64,
+			"border": false
+		},
+		"crystal_flower": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/crystal_flower.png",
+			"caption": "수정 꽃",
+			"u": 0,
+			"v": 0,
+			"width": 48,
+			"height": 48
+		},
+		"wizard_tower": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/wizard_tower.png",
+			"caption": "마법사의 탑",
+			"u": 0,
+			"v": 0,
+			"width": 110,
+			"height": 110
+		},
+		"wizard_armour": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/wizard_armour.png",
+			"caption": "마법사의 갑옷 세트",
+			"u": 0,
+			"v": 0,
+			"width": 90,
+			"height": 90
+		},
+		"obelisk": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/obelisk.png",
+			"caption": "오벨리스크",
+			"u": 0,
+			"v": 0,
+			"width": 110,
+			"height": 67
+		},
+		"shrine": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/shrine.png",
+			"caption": "대지의 사당",
+			"u": 0,
+			"v": 0,
+			"width": 110,
+			"height": 67
+		},
+		"library_ruins": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/library_ruins.png",
+			"caption": "도서관 유적",
+			"u": 0,
+			"v": 0,
+			"width": 110,
+			"height": 57
+		},
+		"remnant": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/remnant.png",
+			"caption": "불의 렘먼트",
+			"u": 0,
+			"v": 0,
+			"width": 110,
+			"height": 73
+		},
+		"tiers": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/tiers.png",
+			"caption": "지팡이의 4등급",
+			"u": 0,
+			"v": 0,
+			"width": 96,
+			"height": 24,
+			"border": false
+		},
+		"elements": {
+			"location": "ebwizardry:textures/gui/handbook/pictures/elements.png",
+			"caption": "7가지 마법 원소",
+			"u": 0,
+			"v": 0,
+			"width": 106,
+			"height": 20,
+			"border": false
+		}
+	},
+
+	"recipes": {
+		"arcane_workbench": {
+			"locations": [ "ebwizardry:arcane_workbench" ]
+		},
+		"magic_wand": {
+			"locations": [ "ebwizardry:magic_wand" ]
+		},
+		"novice_wands": {
+			"locations": [
+				"ebwizardry:magic_wand",
+				"ebwizardry:wand_fire",
+				"ebwizardry:wand_ice",
+				"ebwizardry:wand_lightning",
+				"ebwizardry:wand_necromancy",
+				"ebwizardry:wand_earth",
+				"ebwizardry:wand_sorcery",
+				"ebwizardry:wand_healing"
+			]
+		},
+		"magic_missile_spell_book": {
+			"locations": [ "ebwizardry:magic_missile_spell_book" ]
+		},
+		"wizard_handbook": {
+			"locations": [ "ebwizardry:wizard_handbook" ]
+		},
+		"crystal_flower_to_crystals": {
+			"locations": [ "ebwizardry:crystal_flower_to_crystals" ]
+		},
+		"crystal_blocks": {
+			"locations": [
+				"ebwizardry:crystal_block",
+				"ebwizardry:crystal_block_fire",
+				"ebwizardry:crystal_block_ice",
+				"ebwizardry:crystal_block_lightning",
+				"ebwizardry:crystal_block_necromancy",
+				"ebwizardry:crystal_block_earth",
+				"ebwizardry:crystal_block_sorcery",
+				"ebwizardry:crystal_block_healing"
+			]
+		},
+		"crystal_blocks_to_crystals": {
+			"locations": [
+				"ebwizardry:crystal_block_to_crystals",
+				"ebwizardry:crystal_block_to_crystals_fire",
+				"ebwizardry:crystal_block_to_crystals_ice",
+				"ebwizardry:crystal_block_to_crystals_lightning",
+				"ebwizardry:crystal_block_to_crystals_necromancy",
+				"ebwizardry:crystal_block_to_crystals_earth",
+				"ebwizardry:crystal_block_to_crystals_sorcery",
+				"ebwizardry:crystal_block_to_crystals_healing"
+			]
+		},
+		"crystal_shard": {
+			"locations": [ "ebwizardry:crystal_shard" ]
+		},
+		"small_mana_flask": {
+			"locations": [ "ebwizardry:small_mana_flask" ]
+		},
+		"medium_mana_flask": {
+			"locations": [ "ebwizardry:medium_mana_flask" ]
+		},
+		"large_mana_flask": {
+			"locations": [ "ebwizardry:large_mana_flask" ]
+		},
+		"runestone": {
+			"locations": [
+				"ebwizardry:runestone_fire",
+				"ebwizardry:runestone_ice",
+				"ebwizardry:runestone_lightning",
+				"ebwizardry:runestone_necromancy",
+				"ebwizardry:runestone_earth",
+				"ebwizardry:runestone_sorcery",
+				"ebwizardry:runestone_healing"
+			]
+		},
+		"runestone_pedestal": {
+			"locations": [
+				"ebwizardry:runestone_pedestal_fire",
+				"ebwizardry:runestone_pedestal_ice",
+				"ebwizardry:runestone_pedestal_lightning",
+				"ebwizardry:runestone_pedestal_necromancy",
+				"ebwizardry:runestone_pedestal_earth",
+				"ebwizardry:runestone_pedestal_sorcery",
+				"ebwizardry:runestone_pedestal_healing"
+			]
+		},
+		"transportation_stone": {
+			"locations": [ "ebwizardry:transportation_stone" ]
+		},
+		"magic_silk": {
+			"locations": [ "ebwizardry:magic_silk" ]
+		},
+		"wizard_hat": {
+			"locations": [ "ebwizardry:wizard_hat" ]
+		},
+		"wizard_robe": {
+			"locations": [ "ebwizardry:wizard_robe" ]
+		},
+		"wizard_leggings": {
+			"locations": [ "ebwizardry:wizard_leggings" ]
+		},
+		"wizard_boots": {
+			"locations": [ "ebwizardry:wizard_boots" ]
+		},
+		"blank_scroll": {
+			"locations": [ "ebwizardry:blank_scroll" ]
+		},
+		"firebomb": {
+			"locations": [ "ebwizardry:firebomb" ]
+		},
+		"poison_bomb": {
+			"locations": [ "ebwizardry:poison_bomb" ]
+		},
+		"smoke_bomb": {
+			"locations": [ "ebwizardry:smoke_bomb" ]
+		},
+		"spark_bomb": {
+			"locations": [ "ebwizardry:spark_bomb" ]
+		},
+		"gilded_wood": {
+			"locations": [
+				"ebwizardry:gilded_oak_wood",
+				"ebwizardry:gilded_spruce_wood",
+				"ebwizardry:gilded_birch_wood",
+				"ebwizardry:gilded_jungle_wood",
+				"ebwizardry:gilded_acacia_wood",
+				"ebwizardry:gilded_dark_oak_wood"
+			]
+		},
+		"bookshelves": {
+			"locations": [
+				"ebwizardry:oak_bookshelf",
+				"ebwizardry:spruce_bookshelf",
+				"ebwizardry:birch_bookshelf",
+				"ebwizardry:jungle_bookshelf",
+				"ebwizardry:acacia_bookshelf",
+				"ebwizardry:dark_oak_bookshelf"
+			]
+		},
+		"lecterns": {
+			"locations": [
+				"ebwizardry:oak_lectern",
+				"ebwizardry:spruce_lectern",
+				"ebwizardry:birch_lectern",
+				"ebwizardry:jungle_lectern",
+				"ebwizardry:acacia_lectern",
+				"ebwizardry:dark_oak_lectern"
+			]
+		},
+		"receptacle": {
+			"locations": [ "ebwizardry:receptacle" ]
+		}
+	},
+
+	"sections": {
+
+		"inside_cover": {
+			"centre": {
+				"x": true,
+				"y": true
+			},
+			"text": [
+
+				"마법사의 안내서",
+
+				"By Electroblob"
+			]
+		},
+
+		"introduction": {
+			"title": "소개",
+			"text": [
+
+				"안녕하세요, 마법사님! 이 책은 최고의 마법사가 되기 위한 여러 가지 방법과 마법을 사용하는 방법 등 여러가지를 설명합니다. 그리고 이 책은 평범한 책이 아닙니다. 마법사님이 마법의 세계에 대해 많이 알게 되면 책 페이지들이 마법사님 앞에서 변화가 생길 것입니다.",
+
+				"화살표버튼을 클릭해 페이지를 넘기고 2개의 화살표 버튼은 챕터를 빠르게 넘길 수 있습니다. 메인 컨텐츠 페이지로 돌아가려면 중앙 메뉴 버튼을 클릭하면 됩니다.",
+
+				"관련 페이지로 바로 이동하려면 보라색으로 된 글씨(링크)를 클릭하세요. 책갈피(빨간색)를 마우스 우클릭을 하면 현재 페이지에 책갈피를 씌웁니다. 이 상태에서 다른 페이지로 이동한 뒤 책갈피를 왼쪽 클릭을 하게되면 책갈피 페이지로 돌아갈 수 있습니다."
+			]
+		},
+
+		"main_contents": {
+			"title": "목차",
+			"contents": {
+				"id": "main_contents",
+				"hyperlinks": true,
+				"page_numbers": true,
+				"separator": "."
+			}
+		},
+
+		"setting_up": {
+			"title": "시작",
+			"include_in_contents": "main_contents",
+			"text": [
+
+				"마법을 사용하기 위해선 이 내용을 알아야 합니다.",
+
+				"- 그림과 같이 해당 아이템을 조합해 마법 지팡이를 만들어야 합니다.",
+
+				"#recipe magic_wand",
+
+				"-@arcane_workbench 신비한 작업대@는 다음과 같이 조합할 수 있습니다.",
+
+				"#recipe arcane_workbench",
+
+				"-@spells 마법@에 관한 마법서는 상자에 담겨 있거나, 전리품으로 얻거나, 마법사로부터 구입하거나, 이미지처럼 마법 미사일 같이 초보 주문을 조합하여 만들 수도 있습니다 :",
+
+				"#recipe magic_missile_spell_book",
+
+				"마법사님은 지팡이에 @mana 마나@를 공급하기 위해서는 많은 마법 수정이 필요할 것입니다."
+			]
+		},
+
+		"mana": {
+			"title": "마나",
+			"include_in_contents": "main_contents",
+			"triggers": [
+				"ebwizardry:crystal"
+			],
+			"text": [
+
+				"마나는 마법사에게 힘을 주는 불가사의한 에너지입니다. 이것은 물질적인 것이 아닙니다. 세상의 모든 것에 스며드는 영원한 아우라 같은 존재입니다. 특히, 지하의 암석에 박혀 있는 자연적으로 발생하는 결정체에서 나타납니다. @wands 지팡이@는 그 안에 마나를 저장할 수 있고, 이 마나는 마법사님이 사용하는 @spells 마법@으로 보내집니다. 마법마다 얼마나 강력한지, 얼마나 오래 지속되는지에 따라 각기 다른 양의 마나가 필요합니다.",
+
+				"#image crystal_ore",
+
+				"#image magic_crystal",
+
+				"마나는 인공적으로 창조하거나 파괴할 수 없으며, 마법이 발생하면 사용된 마나가 주변으로 흩어진다는 것이 널리 받아들여지고 있습니다. 사실 이것이 대부분의 마나가 존재하는 방식이며, 전세계에 얇게 퍼져있습니다. 하지만 어떤 용도로든, 지하에서 결정처럼 수천 년에 걸쳐 자연적으로, 또는 이 책에서 다루지 못하는 주제인, 인공적으로 제작하는 방법도 있습니다. 마법을 보다 효율적으로 만들고 마법을 사용하는 동안 소멸된 마나의 일부를 복구하는 다양한 방법들도 존재합니다."
+			]
+		},
+
+		"wands": {
+			"title": "지팡이",
+			"include_in_contents": "main_contents",
+			"triggers": [
+				"ebwizardry:arcane_initiate"
+			],
+			"text": [
+
+				"지팡이는 마법사를 위한 도구입니다. 이 도구를 사용하면 지팡이에 마나가 있을 경우 @spells 마법@을 사용할 수 있습니다.(@tiers 등급@ 참조). 지팡이는 여러 종류가 있지만, 여러분은 거의 기본적인 마법 지팡이로 시작하게 될겁니다.",
+
+				"#image magic_wand",
+
+				"대부분의 지팡이들은 나무 막대기 끝에 마법 수정을 부착하고 반대편엔 금 덩어리를 부착합니다. 마법 수정은 물론 지팡이의 힘의 원천입니다. 이 수정은 사용할 @spells 마법@을 자유자재로 선택할 수 있는 기능을 제공합니다. 수정 외 지팡이 나머지 부분은 지팡이를 쥐기 위한 수단 뿐만 아니라 @mana 마나@를 원활하게 순환될 수 있게 해주는 기능을 제공하기 때문입니다.",
+
+				"지팡이와 함께 더 많은 마법을 사용할수록, @spells 마법@을 자유자재로 선택하는데 더 효과적이게 되고, 더 큰 힘을 가진 주문을 사용할 수 있게 됩니다. 지팡이 자체의 모양을 보면 미묘하게 차이가 있습니다. 지팡이는 더 강력할 수록 수정이 더 아름답고 생기가 생깁니다. 또한 수정의 색은 @elements 원소@에 따라 변할 수 있습니다.",
+
+				"지팡이를 들고 있으면 화면 왼쪽 하단에 작은 창이 표시됩니다. 이것은 현재 선택된  마법을 그림으로 나타낸 화면이며, 해당 마법이 사용될 경우 쿨타임 시간을 알려주는 화면이기도 합니다. 또한 지팡이에 저장된 다음 마법과 이전 마법의 이름도 보여줍니다. 마법을 전환하려면 #next_spell_key 및 #previous_spell_key 키를 눌러 전환이 가능합니다(옵션-> 키설정에서 변경 가능). 그리고 쉬프트+마우스 휠을 스크롤하여 주문을 전환할 수도 있습니다.",
+
+				"인벤토리에서 지팡이를 마우스 위에 올리면 현재 선택된 @spells 마법@과 함께 @mana 마나@가 그 안에 얼마나 많이 저장되어 있는지와 특정 기능이 표시됩니다. 지팡이에 대한 자세한 정보는  @arcane_workbench 신비한 작업대@에 지팡이를 올려놓고 볼 수 있습니다."
+			]
+		},
+
+		"spells": {
+			"title": "마법",
+			"include_in_contents": "main_contents",
+			"triggers": [
+				"ebwizardry:handbook/spells"
+			],
+			"text": [
+
+				"@wands 지팡이@는 마법이 없다면 쓸모가 없습니다. 마법은 두가지 형태로 기록되는데 첫번째는 영구적인 마법서이며 두번째는 일시적인 스크롤로 기록됩니다.",
+
+				"마법서는 @arcane_workbench 신비한 작업대@를 이용해 @wands 지팡이@에 마법을 등록하는데 사용됩니다. 마법서는 전 세계 어디서든 찾을 수 있습니다. 마법서 위에 마우스를 올려 놓으면 마법에 대한 정보를 훑어 볼 수 있고, 마법서를 들고 우클릭을 하여 자세한 내용을 볼 수도 있습니다.",
+
+				"반면 스크롤은 다른 용도로 사용됩니다. 한번 사용하면 스크롤은 소모됩니다. 마법서와 마찬가지로 스크롤도 전 세계에서 찾아볼 수 있지만 직접 만들 수도 있습니다. (@enchanting_scrolls 매혹적인 스크롤@ 참조)",
+
+				"스크롤은 특정 상황에서 한 두번 마법을 사용해야 할 때 유용합니다. 하지만 @wands 지팡이@의 마법 슬롯을 차지하지 않기를 원할 때 유용합니다. 또한 일반적으로 충전시간이 필요한 마법을 즉시 캐스팅할 수 있다는 장점도 있습니다. 그러나, 지팡이를 사용하는 것에 비해 주문을 사용하는데 비효율적인 방법이라는 점에 유의해야 합니다.",
+
+				"마법에 대해 배우지 않았을 경우 대부분의 마법의 문자들을 해석할 수 없습니다. 마법을 식별 또는 알아내기 위해 마법을 사용하면서 알아내는 방법도 있지만 부작용을 일으킬 수도 있고, 많은 마법들이 사용 조건이 필요합니다. 게다가, 캐스팅할 때 알려지지 않은 마법을 잘못 읽을 가능성이 항상 있고, 그 마법이 얼마나 강력한지에 따라 잠재적으로 위험한 결과가 있을 수도 있습니다. 이럴때 사용하는 아이템은 지식의 스크롤을 사용하는 것입니다. 지식의 스크롤은 상자에서 찾거나, 마법사에게서 구입할 수 있습니다. 사용 방법은 퀵슬롯에 마법서 또는 스크롤을 올려두고 지식의 스크롤을 사용하면 됩니다.(가장 첫번째에 있는 마법서(스크롤)을 우선 사용됩니다)"
+			]
+		},
+
+		"arcane_workbench": {
+			"title": "신비한 작업대",
+			"include_in_contents": "main_contents",
+			"contents": {
+				"id": "arcane_workbench_subsections",
+				"hyperlinks": true,
+				"page_numbers": true,
+				"separator": "."
+			},
+			"triggers": [
+				"ebwizardry:handbook/arcane_workbench"
+			],
+			"text": [
+
+				"신비한 작업대는 @wands 지팡이@에 마나충전, 업그레이드 및 마법 등록을 할 수 있는 인첸트 테이블과 외관이 유사한 블록이며 다음과 같이 조합하여 제작이 가능합니다 :",
+
+				"#recipe arcane_workbench",
+
+				"다음 페이지에서는 신비한 작업대의 기능에 대해 설명하고자 합니다.",
+
+				"#image workbench"
+			],
+			"sections": {
+				"binding_spells": {
+					"title": "마법 등록",
+					"include_in_contents": "arcane_workbench_subsections",
+					"triggers": [
+						"ebwizardry:handbook/arcane_workbench"
+					],
+					"text": [
+
+						"@spells 마법@을 @wands 지팡이@에 등록하려면 신비한 작업대 중앙에 지팡이를 올려놓고 주변 슬롯중 하나에 마법서를 올려놓은 뒤 적용시키면 됩니다. 마법이 등록될 때 마법서는 사라지지 않으니 걱정하지 마세요. 마법 등록을 반복하면서 원하는 만큼 지팡이에 마법을 교체할 수 있습니다. 그리고 한 번에 최대 5개의 마법을 지팡이에 등록할 수 있는데, 지팡이 강화를 통해 저장할 수 있는 마법 수를 늘릴 수도 있습니다."
+					]
+				},
+				"charging_wands": {
+					"title": "지팡이 충전",
+					"include_in_contents": "arcane_workbench_subsections",
+					"triggers": [
+						"ebwizardry:handbook/arcane_workbench"
+					],
+					"text": [
+
+						"@wands 지팡이@의 마나를 충전하려면, 지팡이를 신비한 작업대의 중앙 슬롯에 올려두고 왼쪽 하단 슬롯에 마법 수정을 놓고 적용시키면 됩니다. 각각의 수정들은 #mana_per_crystal @mana@의 가치가 있습니다."
+					]
+				},
+				"upgrading_wands": {
+					"title": "지팡이 강화",
+					"include_in_contents": "arcane_workbench_subsections",
+					"triggers": [
+						"ebwizardry:handbook/tome_of_arcana"
+					],
+					"text": [
+
+						"@wands 지팡이@를 강화하려면 적절한 @tiers 등급@의 마도서 또는 강화 주문서가 필요합니다. 둘 다 전리품으로 얻거나 마법사로부터 구매할 수 있습니다. 지팡이를 강화하려면 신비한 작업대 중앙 슬롯에 지팡이를 놓고 오른쪽 상단 슬롯에 강화 주문서 또는 마도서를 넣은 다음 적용을 누르면 됩니다.",
+
+						"강화 주문서는 지팡이의 특성을 향상시켜줍니다. 각 특성들은 3회까지 강화 시킬 수 있고, 지팡이 강화 최대치는 지팡이의 등급에 따라 달라집니다. 또한 한번 강화하면 되돌릴 수 없으니 참고하세요."
+					]
+				},
+				"enchanting_scrolls": {
+					"title": "매혹적인 스크롤",
+					"include_in_contents": "arcane_workbench_subsections",
+					"triggers": [
+						"ebwizardry:handbook/scrolls"
+					],
+					"text": [
+
+						"신비한 작업대를 사용하여 @spells 마법@ 스크롤을 만들수도 있습니다. 종이와 실로 만든 빈 스크롤과 적용할 마법의 마법서 그리고 @mana 마나@를 흡수 시키기 위해 마법 수정이 준비 되어야 합니다.",
+
+						"#recipe blank_scroll",
+
+						"마법 수정을 왼쪽 하단 슬롯에 두고, 빈 스크롤을 중앙 슬롯에 둡니다. 그리고 마법서는 오른쪽 상단 슬롯에 놓고 확인을 눌러 스크롤에 마법을 부여하세요."
+					]
+				}
+			}
+		},
+
+		"wizard_armour": {
+			"title": "마법사 갑옷",
+			"include_in_contents": "main_contents",
+			"triggers": [
+				"ebwizardry:arcane_initiate"
+			],
+			"text": [
+
+				"마법사로써, 생물로부터 보호할 장비가 필요할 것입니다. 하지만 일반 갑옷을 착용하는 방법보다 더 좋은 방법이 있습니다. 마법을 최대한 활용하기 위해 마법사 갑옷을 착용하는 것이 좋죠. 일반 갑옷과 달리 마법사 갑옷은 깨지지 않습니다. 또 마법사님을 마나를 사용하여 보호하는 능력도 가지고 있습니다. 물론 마법 수정으로 마나를 충전해줘야 보호 능력이 생깁니다. 하지만 @mana 마나@ 소모량은 적으니 걱장하지 않아도 됩니다.  @arcane_workbench 신비한 작업대@또는 @mana_flasks 마나 플라스크@를 사용해 마나를 충전할 수 있습니다.",
+
+				"#image wizard_armour",
+
+				"마법의 비단을 조합하여 마법사 갑옷을 제작할 수 있습니다.",
+
+				"#recipe magic_silk",
+				"#recipe wizard_hat",
+				"#recipe wizard_robe",
+				"#recipe wizard_leggings",
+				"#recipe wizard_boots",
+
+				"일반 인첸트 테이블을 사용하여 마법사 갑옷을 인첸트할 수도 있으며, 마법 비단 고유 특성 중 깨지지 않는 특성 때문에 상당히 효과적입니다. 마법사에게 특히 유용한 것은 마법, 냉기 및 번개를 보호할 수 있는 인첸트 옵션도 제공됩니다.",
+
+				"한 가지 원소만 사용하는 마법사들은 간혹 해당 원소에 추가 효과를 얻을 수 있는 특별한 갑옷을 입습니다. 그러한 갑옷은 마법사들 사이에서 매우 인기가 많으며 찾기가 쉽지 않습니다.",
+
+				"전설에 따르면 가장 강력한 마법사가 갑옷의 성능을 크게 향상시키는데 사용한 마법 인장에 대한 이야기도 있습니다."
+			]
+		},
+
+		"magical_world": {
+			"title": "마법의 세계",
+			"include_in_contents": "main_contents",
+			"contents": {
+				"id": "magical_world_subsections",
+				"hyperlinks": true,
+				"page_numbers": true,
+				"separator": "."
+			},
+			"triggers": [
+				"ebwizardry:handbook/on_subsection_unlock"
+			],
+			"text": [
+
+				"집에 있는 것 만으로는 마법을 마스터할 수 없습니다. 마법으로 가득한 세계로 모험을 떠나야 합니다! 고대 유적, 유물 및 신비한 존재가 마법사님을 기다리고 있습니다. 가장 위대한 마법사는 가장 호기심이 많으며 주변 환경을 탐색하고 찾은 것을 실험하여 지식과 힘을 얻었다고 합니다.",
+
+				"마법사의 많은 시간을 혼자서 보내지만 지식의 공유는 마법을 배우는데 중요하다고 생각합니다. 다른 마법사를 찾고 그들로부터 최대한 많은 마법을 배우세요. 의사 소통이 가장 큰 힘의 원천입니다."
+			],
+			"sections": {
+				"crystal_flowers": {
+					"title": "수정 꽃",
+					"include_in_contents": "magical_world_subsections",
+					"triggers": [
+						"ebwizardry:handbook/crystal_flowers"
+					],
+					"text": [
+
+						"여행하는 동안 종종 야생에서 자라는 신비한 꽃을 보게 될 것입니다. 이 독특한 꽃은 수정 꽃이라고 알려져 있으며 @mana 마나@를 집중시킬 때 효과적이라고 합니다. 오늘날까지 아무도 그 이유를 알아내지 못했습니다. 수정 꽃을 수확하고 조합하여 마나를 수정으로 추출할 수 있다고 합니다. 어을 수 있는 마나의 양은 제한되지만 좋은 마나 수급처라고 생각합니다.",
+
+						"#image crystal_flower",
+						"#recipe crystal_flower_to_crystals"
+					]
+				},
+				"wizard_towers": {
+					"title": "마법사 타워",
+					"include_in_contents": "magical_world_subsections",
+					"triggers": [
+						"ebwizardry:wizard_tower"
+					],
+					"text": [
+
+						"마법사 타워를 두려워하지마세요. 마법사님은 유일하게 마법을 다루는 사람이 아닙니다. 여행 중에 뾰족한 지붕이 있는 높은 타워를 발견할 수 있습니다. 이곳은 마법사의 거주지입니다. 고독한 삶은 종종 마법사를 조금 심술궂게 만들 수 있지만 대가를 치르더라도 지식을 기꺼이 마법사님과 공유하려는 친절한 마법사들입니다. 귀금속과 보석을 지불하고 그 대가로 많은 경험과 지식을 얻게 될 것입니다.",
+
+						"그러나 찾고있는 것이 @tiers 마스터@ 마법인 경우 전문가를 찾아가야합니다.",
+
+						"#image wizard_tower",
+
+						"불행하게도 마법사님을 환영하지 않는 몇 마법사가 있습니다. 이 마법사들은 일반적으로 추방자이며, 자신과 같은 길을 건너는 사람들에게 매우 적대적입니다. 이 사악한 마법사들에게 조심스럽게 접근해야하며 강력한 마법으로 부터 자신을 방어해야합니다. 하지만 사악한 마법사를 물리 치면 많은 지식을 얻을 수 있습니다.",
+
+						"또한 어떤 마법사든 공격을 받거나 도난당하는 것을 친절하게 받아들이지 않을 것입니다."
+					]
+				},
+				"obelisks": {
+					"title": "방첨탑",
+					"include_in_contents": "magical_world_subsections",
+					"triggers": [
+						"ebwizardry:handbook/obelisks"
+					],
+					"text": [
+
+						"고대 마법의 흔적이 전 세계에 흩어져 있는데, 그 중 가장 눈에 띄는 것은 많은 상징 마크가 새겨진 석조 건축물입니다. 이 유적들은 고대 문명의 일종으로 보입니다. 누가 만들었는지는 모르지만 고대에는 상당한 마법 시직을 가지고 있었던 것 같습니다.",
+
+						"이러한 구조물은 크게 두가지 유형으로 나뉘어집니다. 첫 번째는 오벨리스크입니다. 오벨리스크는 자주 보인다고 하며 오벨리스크 중앙 바닥에는 잊혀진 과거의 유물들이 뭍혀 있다고 합니다.",
+
+						"#image obelisk",
+
+						"이 구조물들은 보통 적대적인 @creatures 마법의 생물@을 소환하고 유물을 보호합니다. 적대적인 생물들을 물리치고 스포너를 파괴하세요. 그러면 유물은 마법사님의 것입니다."
+					]
+				},
+				"shrines": {
+					"title": "사당",
+					"include_in_contents": "magical_world_subsections",
+					"triggers": [
+						"ebwizardry:visit_shrine"
+					],
+					"text": [
+
+						"두 번째는 오벨리스크보다 더 희귀한 건축물이라고 합니다. 이 건물 이름은 사당이며 중앙 대좌를 둘러싸고 있는 둥근 돌기둥들로 구성되어 있다고 합니다. 그리고 그 위에 고대 @artefacts artifacts@들로 가득 찬 상자가 있습니다. 이 상자는 일반적으로 신비한 잠금 마법에 의해 보호되고 있어 소유자를 제외한 모든 사람이 열 수 없게끔 되어있습니다. 또한 격리 구역으로 보호되어 있어 너무 가까이 있는 물체가 탈출 하는 것을 방지한다고 합니다.",
+
+						"#image shrine",
+
+						"그 안에 있는 유물은 말할 것도 없고 엄청난 마법의 힘과 중요성으로 인해 이 구조물은 모든 야심 찬 마법사에게 특히 매력적이지만 조심해야합니다. 마법사들이 격리 구역에 갇혀 밀실 공포증에 의해 서서히 미쳐가고 있다는 수 많은 보고가 있습니다. 점점 더 많은 사람들이 이 사건들이 사당 보호 마법의 고의적인 부분이라고 생각했고, 안에 갇힌 마법사들도 그 건물을 보호하는 경호원처럼 통제되고 있다고 말합니다."
+					]
+				},
+				"library_ruins": {
+					"title": "도서관 폐허",
+					"include_in_contents": "magical_world_subsections",
+					"triggers": [
+						"ebwizardry:find_library_ruins"
+					],
+					"text": [
+
+						"마법사들은 일생 동안 다소 많은 마법서를 모으는 경향이 있습니다. 따라서 마법사가 소장품을 보관하기 위해 도서관을 짓는 것은 흔한 일입니다. 특히 몇몇 비밀스러운 마법사들은 비밀스런 지식을 엿보는 눈을 피해 지하 어딘가에 저장한다고 알려져 있습니다. 하지만, 도서관은 유지관리가 필요하고, 만약 도서관의 주인이 책을 물려받을 견습생 없이 죽는다면, 그 건물은 빠르게 파괴될 것입니다. 수천 년 동안 많은 도서관이 이런 방식으로 버려진 채로 남아있다는 것을 보았으며, 탐험 할 때 우연히 발견 할 수도 있습니다. 시간을 억누를 수 있는 마법서나 그 외에 다른 마법서를 발견할 수도 있습니다.",
+
+						"#image library_ruins",
+
+						"하지만 도서관은 책을 저장하는 데만 사용되는 것은 아닙니다. 과거의 마법사들은 마법 재료에 대한 원소 강화 의식을 수행하는데 사용되는 강화 제단의 힘을 이용했다고 합니다. 제단의 위치는 특정 천체의 움직임과 지역 마나 변동에 따라 정렬되어야 하기 떄문에 정확해야하고 어려운 기술이라고 합니다. 이런 것들을 짓는건 최근 역사에서 훨씬 드물어졌다고 합니다. 그 이유는 일단 지어지면, 수세기 동안 지속되기 때문에 새로운 제단을 만들 필요가 없기 때문입니다.
+						대부분의 마법사들은 침입 의식을 행할 때 필요한 기존의 제단을 찾아 수리하고, 도서관 폐허는 구경하기에 완벽한 장소입니다. ",
+
+						"마법사님도 언젠가 자신만의 도서관을 건설하는 것이 유용하다고 생각할 수 있습니다. 물론 책장이 필요할 것입니다.",
+
+						"#recipe bookshelves",
+
+						"#recipe gilded_wood",
+
+						"그러나 이 책장은 단순한 가구가 아닙니다. 가장 강력한 마법 결정을 책장에 넣게되면 책장 근처에 있는 @arcane_workbench 신비한 작업대@까지 지식을 쉽게 전달할 수 있습니다. 수집 범위가 넒어짐에 따라 매우 편리합니다. 독서대도 마찬가지입니다.",
+
+						"#recipe lecterns",
+
+						"독서대 위에 떠있는 책은 근처 마법서의 지식을 모아 책장을 일일히 뒤질 필요 없이 독서대 한 곳에 보기편하게 저장되는 기능을 해줍니다."
+					]
+				},
+				"creatures": {
+					"title": "마법의 생물",
+					"include_in_contents": "magical_world_subsections",
+					"triggers": [
+						"ebwizardry:handbook/magical_creatures"
+					],
+					"text": [
+
+						"마법사 외에 많은 다른 생물들도 마법을 사용합니다. 이 생물 중 대부분이 신비로운 기운을 사용하며, 특정 @spells 마법@을 사용하여 소환될 수 있습니다. 이들은 @obelisks 오벨리스크@를 지키고 있는 경우도 있으며 더 작은 신비한 생물들은 야생에서 발견되기도 합니다.",
+
+						"이 중 주목할 만한 생물은 남아 있는 영혼과 같은 존재로써, 강력한 마법에 의해 남겨진 흔적에서 자연스럽게 형성되며, 일반적으로 일곱 개의 신비한 @elements 원소@ 중 하나를 가지고 있습니다. 이들은 준비가 되지 않은 모험가를 빠르게 제압할 수도 있고, 마법에 대한 저항력 또한 뛰어나서 활이나 다른 원거리 무기를 사용하여 잡는 것을 권장합니다.",
+
+						"#image remnant",
+
+						"일단 이 몹이 죽으면, 허상의 가루를 떨어트리는데, 이것은 다채로운 빛을 내뿜는 것 외에도, 다양하게 유용한 특성들을 가지고 있습니다. 그림과 같이 제작된 소켓은 편리한 방법을 제공합니다.",
+
+						"#recipe receptacle",
+
+						"소켓을 설치한 뒤 허상의 가루를 들고 오른쪽 클릭하여 부드러운 광원으로 작용할 수 있습니다. 채워진 소켓을 마우스 우클릭하면 허상의 가루를 회수합니다."
+					]
+				},
+				"artefacts": {
+					"title": "유물",
+					"include_in_contents": "magical_world_subsections",
+					"triggers": [
+						"ebwizardry:artefact"
+					],
+					"text": [
+
+						"@shrines 사당@을 탐험할 때, 마법사님이 운이 좋으면 고대 마법 유물을 발견할 수도 있습니다. 이 유물은 착용자에게 독특하고 강력한 버프나 특별한 힘을 부여하는 것으로 알려져 있습니다. 이 유물들은 3가지 특성이 있다고 하는데, 반지는 마법을 강화시키고 목걸이는 방어 능력을 향상시키고 유틸리티 효과를 부여해주는 특별한 유물이 있다고합니다."
+					]
+				}
+			}
+		},
+
+		"tiers": {
+			"title": "등급",
+			"include_in_contents": "main_contents",
+			"triggers": [
+				"ebwizardry:handbook/tome_of_arcana"
+			],
+			"text":[
+
+				"@wands 지팡이@ 또는 @spells 마법@은 #colour_novice초보자#colour_reset, #colour_apprentice견습생#colour_reset, #colour_advanced숙련자#colour_reset 그리고 #colour_master마스터#colour_reset등 4가지 등급을 가지고 있습니다. 각 등급은 마지막 등급보다 더 강력합니다.",
+
+				"#image tiers",
+
+				"#colour_novice초보자#colour_reset 지팡이는 조합하여 제작할 수 있는 아이템입니다. 초보자 지팡이는 #novice_max_charge 마나를 저장할 수 있으며, 초보자 마법만 사용할 수 있습니다. 초보자 마법은 누구나 사용할 수 있을만큼 간단하며 일반적으로 마나가 많이 들지 않습니다. 그러나 초보자 마법이 상위 등급에서 쓸모 없다는 것은 아닙니다. 적은 마나로 마스터 마법에 접근 할 수 있는 경우에도 일부 초보자 마법이 유용합니다.",
+
+				"#colour_apprentice견습생#colour_reset 지팡이는 초보자 지팡이의 다음 등급의 지팡이입니다. 최대 #apprentice_max_charge마나를 저장할 수 있으며, 초보자 및 견습생 마법을 사용할 수 있습니다. 견습생 마법은 초보자 마법보다 약간 더 인상적이지만 일반적으로 더 많은 마나가 필요합니다.",
+
+				"#colour_advanced숙련자#colour_reset 지팡이는 매우 드물고 훨씬 더 강력합니다. 마스터 마법을 제외한 모든 마법을 사용할 수 있으며 #advanced_max_charge마나를 저장할 수 있습니다. 숙련자 마법은 투명화 같은 초인적인 힘을 다룰 수 있으며 적에게 혼란을 줄 수 있습니다.",
+
+				"#colour_master마스터#colour_reset 지팡이는 현존하는 가장 강력한 지팡이입니다. #master_max_charge마나를 저장할 수 있으며, 모든 마법을 사용할 수 있습니다. 마스터 마법서는 매우 드물며 이 마법들은 적뿐만이 아니라 세계 자체도 파괴를 일으킬 수 있을만큼 강력합니다. 따라서 주의해서 사용해야합니다.",
+
+				"더 높은 등급으로 강화하려면 먼저 지팡이가 해당 등급의 마법을 전달할 수 있을만큼 강력해야합니다. 지팡이는 마법을 시전할 때 힘을 얻습니다. 마법의 다양성, 주문력, 원소 효과 및 기타 외부 요인들은 모두 지팡이가 얼마나 빨리 성장하는지에 영향을 미칠 수 있습니다.",
+
+				"지팡이가 충분히 강해지면, 마도서를 통해 지팡이 등급 강화를 할 수 있습니다. (@upgrading_wands 지팡이 강화@참고) 강화를 할 경우 지팡이를 다시 성장시켜야 합니다."
+			]
+		},
+
+		"elements": {
+			"title": "원소",
+			"include_in_contents": "main_contents",
+			"triggers": [
+				"ebwizardry:handbook/elements"
+			],
+			"text": [
+
+				"@spells 마법@은 마법의 성격에 따라 원소가 달라집니다. @wands 지팡이@도 마찬가지로 원소가 존재합니다.",
+
+				"#image elements",
+
+				"#colour_fire불의 원소#colour_reset \n원소들 중 가장 파괴력이 강한 원소 화염은 연소, 용암 및 폭발과 관련이 있습니다. 강력한 화염술사는 적들에게 지옥을 불러일으키고 세상을 밝힐 만큼 강한 불을 사용합니다. 대부분의 불 공격 마법은 대상에게 불을 지르며 시간이 지남에 따라 지속적인 피해를 입힙니다. 그러나 불 마법은 지옥(nether) 몬스터에게 영향을 미치지 않을 수 있습니다.",
+
+				"#colour_ice얼음 원소#colour_reset \n빙결 원소는 차가운 모든 것으로 이루어져 있습니다. 빙결 마법은 보통 적의 속도를 늦추거나 완전히 얼려버리며, 특히 불속성을 가진 생물에게 효과적입니다. 빙결 마법은 강을 건너기 위해 물을 얼리는 것과 같이 전투 밖에서도 유용하게 사용할 수 있습니다.",
+
+				"#colour_lightning번개 원소#colour_reset \n이 원소는 번개,폭풍 및 날씨와 관련이 있습니다. 강력한 번개술사는 엄청난 힘을 가지고 있으며, 마음대로 번개를 부를 수 있는 능력을 보여줍니다. 번개마법은 한번에 여러적에게 피해를 입히고 연쇄 공격을 가하며 모든 몹에 대해 효과적인 공격을 합니다. 하지만 크리퍼는 예외입니다...",
+
+				"#colour_necromancy어둠 원소#colour_reset \n사령술은 어둠, 혼돈, 언데드의 원소입니다. 사령술사는 약한 인식이 있지만 그렇지 않습니다. 사령술사 마법은 일반적으로 @creatures 생물@을 소환하여 마법사를 위해 싸우게 만들거나 적의 의지를 구부리는데 사용됩니다.",
+
+				"#colour_earth자연 원소#colour_reset \n자연의 원소는 동물, 식물, 바람 등과 같은 자연 세계에 초점을 맞추고 있습니다. 자연마법은 적을 독살하는 것부터 날씨의 분노를 일으키는 것 까지 다양한 형태를 가지고 있습니다. 자연 마법은 공격, 방어 및 유틸리티 모두 혼합되어 있습니다.",
+
+				"#colour_sorcery신비 원소#colour_reset \n신비의 원소는 빛, 중력 및 현실 자체를 마법사 자신 필요에 맞게 조작합니다. 신비술사는 무엇보다도 시전자에게 마법의 힘을 부여하거나 물건을 의지대로 옮기는 데 사용할 수 있습니다.",
+
+				"#colour_healing치유 원소#colour_reset \n치유의 원소는 방어, 재생과 관련이 있습니다. 치유술사는 자신과 아군을 가능한 많이 보호하려고 하므로 매우 까다로운 상대가 될 수 있습니다. 일반적으로 공격 마법은 별로 없지만 치유 마법과 정화 빛은 언데드에게 상당한 피해를 줍니다. 치유 주문은 전투 중 필수라고 할 수 있습니다.",
+
+				"서로 다른 원소 사이의 경계가 항상 구별되는 것은 아니며 일부 마법은 자신의 원소가 아닌 다른 원소의 특성을 가지고 있습니다.",
+
+				"운이 좋으면 정령의 수정을 만날 수 있습니다. 원소 결정은 성장함에 따라 원소 속성을 흡수하는 마법의 결정입니다. 정확한 조건과 이것이 바랭하는 메커니즘은 미스터리로 남아 있습니다. 하지만 수정을 이용해 정령 지팡이를 만들 수 있다고 합니다. 이로 인해 각 원소의 마법들이 평소보다 더 강력하게 사용될 수 있다고 합니다."
+			]
+		},
+
+		"miscellaneous": {
+			"title": "기타",
+			"include_in_contents": "main_contents",
+			"contents": {
+				"id": "miscellaneous_subsections",
+				"hyperlinks": true,
+				"page_numbers": true,
+				"separator": "."
+			},
+			"triggers": [
+				"ebwizardry:on_subsection_unlock"
+			],
+			"sections": {
+				"mana_flasks": {
+					"title": "마나 플라스크",
+					"include_in_contents": "miscellaneous_subsections",
+					"triggers": [
+						"ebwizardry:handbook/mana_flasks"
+					],
+					"text": [
+
+						"아르켄두르의 신비한 공급회사. - 여러분이 필요로 하는 모든 것을 위한 마법의 물건들입니다!",
+
+						"이동 중에 @wands 지팡이@에 마나를 충전해야 하나요? 문제 없어요! @mana 마나@는 이제 병에 담을 수 있습니다. 유리 병과 8개의 마법 수정으로 마나 플라스크를 만들어서 가지고 다니세요. 필요가 있을 때 지팡이와 마나 플라스크를 조합하면 지팡이에 일정량 마나가 회복됩니다! *",
+
+						"#recipe medium_mana_flask",
+
+						"뉴스! 새로운 소형 및 대형 마나 플라스크를 소개합니다 - 이제 필요에 따라 마나 플라스크의 크기를 선택할 수 있습니다.",
+
+						"#recipe small_mana_flask",
+						"#recipe large_mana_flask",
+
+						"* 이 과정을 수행하면 병이 파괴됩니다. 또 일부 마나가 소실됩니다."
+					]
+				},
+				"throwable_items": {
+					"title": "던질 수 있는 아이템",
+					"include_in_contents": "miscellaneous_subsections",
+					"triggers": [
+						"ebwizardry:handbook/throwables"
+					],
+					"text": [
+
+						"다양한 @spells 마법@은 무리적인 아이템을 만들어내며, 일부는 직접 제작할 수도 있습니다. 화염탄, 독폭탄, 번개탄, 연막탄등 모두 제작할 수 있습니다.",
+
+						"#recipe firebomb",
+						"#recipe poison_bomb",
+						"#recipe smoke_bomb",
+						"#recipe spark_bomb"
+					]
+				},
+				"automated_casting": {
+					"title": "자동 캐스팅",
+					"include_in_contents": "miscellaneous_subsections",
+					"triggers": [
+						"ebwizardry:enchant_scroll"
+					],
+					"text": [
+
+						"최근 실험에 따르면 간단한 발사기를 사용하여 @spells 마법@ 캐스팅을 어느정도 자동화 할 수 있다는 것을 알게 되었습니다. 이유는 아무도 모르지만 레드스톤의 이상한 속성이 마법 스크롤을 활성화ㅏ는 것으로 보입니다. 발사기에 스크롤을 넣고 레드스톤 신호를 줘보세요!"
+					]
+				}
+			}
+		},
+
+		"crafting_recipes": {
+			"title": "조합법",
+			"include_in_contents": "main_contents",
+			"text": [
+
+				"#recipe arcane_workbench",
+				"#recipe novice_wands",
+				"#recipe magic_missile_spell_book",
+				"#recipe wizard_handbook",
+				"#recipe crystal_flower_to_crystals",
+				"#recipe crystal_blocks",
+				"#recipe crystal_blocks_to_crystals",
+				"#recipe crystal_shard",
+				"#recipe small_mana_flask",
+				"#recipe medium_mana_flask",
+				"#recipe large_mana_flask",
+				"#recipe runestone",
+				"#recipe runestone_pedestal",
+				"#recipe transportation_stone",
+				"#recipe magic_silk",
+				"#recipe wizard_hat",
+				"#recipe wizard_robe",
+				"#recipe wizard_leggings",
+				"#recipe wizard_boots",
+				"#recipe blank_scroll",
+				"#recipe firebomb",
+				"#recipe poison_bomb",
+				"#recipe smoke_bomb",
+				"#recipe spark_bomb",
+				"#recipe gilded_wood",
+				"#recipe bookshelves",
+				"#recipe lecterns",
+				"#recipe receptacle"
+			]
+		},
+
+		"credits": {
+			"title": "크레딧",
+			"include_in_contents": "main_contents",
+			"text": [
+
+				"Electroblob's Wizardry \n버전 #version \n마인크래프트 버전 #mcversion",
+
+				"Electroblob에 의해 설계, 코딩 및 디자인 처리가 됩니다.",
+
+				"마인크래프트 포지와 MCP 덕분에 가능했고, 이런 방식이 없었다면 제작하지 못했을 것입니다.",
+
+				"또한 마인크래프트 모델 커뮤니티 덕분에 항상 모델 문제에 대한 해답을 얻을 수 있었습니다!",
+
+				"마지막으로 이 모드에 기여한 사람들께 감사의 말씀을 전하고 싶습니다.",
+
+				"코드:",
+
+				"- Corail31 \n- 12foo \n- Shadows-of-Fire \n- HellFirePvP \n- Tora-B \n- Avatair \n- Aeronica \n- UltraHex \n- Azim-Palmer \n- raoulvdberge \n- rafasoares",
+
+				"번역:",
+
+				"- Spanish: MadWrist, Alsentar \n- Mexican Spanish: MadWrist \n- Russian: VilagVil, kellixon, bigenergy \n- French: Hahdrim \n- Brazilian Portuguese: lorrampi \n- Chinese (Simplified): ZHENGLOC, dragon-evol, Hokorizero, TUsama, Determancer \n- Korean: shejery, rewi_wire \n- Polish: Trozuu \n- German: BirdyDragon \n- Chinese (Traditional): chesterccj305 \n- Hungarian: Bombadil",
+
+				"사운드 효과:",
+
+				"- OhhWowProductions\n- fredzed\n- deleted_user_3277771\n- DiscoveryME\n- OGSoundFX\n- leosalom\n- juskiddink",
+
+				"자세한 내용은 다음을 참고해주세요. @https://github.com/Electroblob77/Wizardry/wiki wiki@.",
+
+				"더 많은 마법을 얻을 수 있나요? @https://discord.gg/hs8yJP2 디스코드 서버@에 가입하여 최신 뉴스, 토론 및 추가 정보를 확인하세요!",
+
+				"+ 2021-01-03 책 및 추가 번역은 [흔호]가 진행하였습니다."
+			]
+		}
+
+	}
+}
