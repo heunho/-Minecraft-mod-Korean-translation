@@ -7,19 +7,25 @@ https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
 현재 유튜브에서 한글화 배포, 강좌 등 다양한 영상을 올리고 있습니다.
 
 <h1>무슨 모드가 한글화 됐나요?</h1>
-
+----------------------------------------------------
 하나부터 직접 번역한 파일
 ----------------------------------------------------
-Atum2
-Camera
-Chisels And Bits
-Cooking For Blockheads
-Dynamic trees PHC
-Hwyla
-JEI
-Lock
-Mowzies Mobs
-Wings
+<ul>
+  <li>Atum2</li>
+  <li>Camera</li>
+  <li>Chisels And Bits</li>
+  <li>Cooking For Blockheads</li>
+  <li>Dynamic trees PHC</li>
+  <li>Hwyla</li>
+  <li>JEI</li>
+  <li>Lock</li>
+  <li>Mowzies Mobs</li>
+  <li>Wings</li>
+  <li>Lock</li>
+  <li>Lock</li>
+  <li>Lock</li>
+</ul>
+
 ----------------------------------------------------
 
 번역된 파일에서 오역 및 미번역 부분 추가 번역한 파일
