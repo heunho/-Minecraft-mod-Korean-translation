@@ -1,0 +1,269 @@
+
+itemGroup.chiselsandbits=Chisels & Bits
+itemGroup.chiselsandbits.Clipboard=Chisels & Bits 클립보드
+
+tile.mod.chiselsandbits.chiseled_wood.name=조각된 나무
+tile.mod.chiselsandbits.chiseled_rock.name=조각된 바위
+tile.mod.chiselsandbits.chiseled_iron.name=조각된 금속
+tile.mod.chiselsandbits.chiseled_cloth.name=조각된 천
+tile.mod.chiselsandbits.chiseled_glass.name=조각된 유리
+tile.mod.chiselsandbits.chiseled_ice.name=조각된 얼음
+tile.mod.chiselsandbits.chiseled_packedIce.name=조각된 얼음
+tile.mod.chiselsandbits.chiseled_clay.name=조각된 점토
+tile.mod.chiselsandbits.chiseled_sand.name=조각된 모래
+tile.mod.chiselsandbits.chiseled_ground.name=조각된 바닥
+tile.mod.chiselsandbits.chiseled_grass.name=조각된 풀
+tile.mod.chiselsandbits.chiseled_snow.name=조각된 눈
+tile.mod.chiselsandbits.chiseled_fluid.name=조각된 액체
+tile.mod.chiselsandbits.chiseled_leaves.name=조각된 잎
+
+tile.mod.chiselsandbits.bittank.name=조각용 물탱크
+
+item.mod.chiselsandbits.block_bit.name=조각
+item.mod.chiselsandbits.bit_bag.name=조각 가방
+item.mod.chiselsandbits.wrench_wood.name=나무 렌치
+
+item.mod.chiselsandbits.positiveprint.name=설치용 디자인 종이
+item.mod.chiselsandbits.positiveprint_written.name=설치용 디자인 종이-복사됨
+item.mod.chiselsandbits.negativeprint.name=조각용 디자인 종이
+item.mod.chiselsandbits.negativeprint_written.name=조각용 디자인 종이-복사됨
+item.mod.chiselsandbits.mirrorprint.name=복사용 디자인 종이
+item.mod.chiselsandbits.mirrorprint_written.name=복사용 디자인 종이-복사됨
+
+item.mod.chiselsandbits.chisel_stone.name=돌 끌
+item.mod.chiselsandbits.chisel_iron.name=철 끌
+item.mod.chiselsandbits.chisel_gold.name=금 끌
+item.mod.chiselsandbits.chisel_diamond.name=다이아몬드 끌
+
+item.mod.chiselsandbits.bitsaw_diamond.name=다이아몬드 톱
+item.mod.chiselsandbits.tape_measure.name=줄자
+
+mod.chiselsandbits.chiselmode.single=1칸
+mod.chiselsandbits.chiselmode.snap2=그리드 스냅 1/8 크기 큐브
+mod.chiselsandbits.chiselmode.snap4=그리드 스냅 1/4 크기 큐브
+mod.chiselsandbits.chiselmode.snap8=그리드 스냅 1/2 크기 큐브
+mod.chiselsandbits.chiselmode.line=1줄
+mod.chiselsandbits.chiselmode.plane=평면
+mod.chiselsandbits.chiselmode.connected_plane=연결된 평면
+mod.chiselsandbits.chiselmode.connected_material=연결된 재질
+mod.chiselsandbits.chiselmode.cube_small=소형 큐브
+mod.chiselsandbits.chiselmode.cube_medium=중형 큐브
+mod.chiselsandbits.chiselmode.cube_large=대형 큐브
+mod.chiselsandbits.chiselmode.drawn_region=드래그 영역
+mod.chiselsandbits.chiselmode.same_material=동일한 재질
+
+mod.chiselsandbits.bitoption.place=설치
+mod.chiselsandbits.bitoption.replace=교체
+
+mod.chiselsandbits.positivepatternmode.replace=교체
+mod.chiselsandbits.positivepatternmode.additive=추가
+mod.chiselsandbits.positivepatternmode.placement=배치
+mod.chiselsandbits.positivepatternmode.impose=덮어쓰기
+
+mod.chiselsandbits.tapemeasure.chatmsg=x: %s,  y: %s,  z: %s
+mod.chiselsandbits.tapemeasure.bit=1칸
+mod.chiselsandbits.tapemeasure.block=블럭
+mod.chiselsandbits.tapemeasure.distance=거리
+
+mod.chiselsandbits.result.out_of_range=가까이 가야합니다.
+mod.chiselsandbits.result.has_changed=블록이 변경되었습니다.
+mod.chiselsandbits.result.missing_bits=내구성이 충분하지 않습니다.
+mod.chiselsandbits.result.nothing_to_undo=취소 할 항목이 없습니다.
+mod.chiselsandbits.result.nothing_to_redo=다시 실행할 항목이 없습니다.
+mod.chiselsandbits.result.require_bag =이 아이템을 사용하려면 인벤토리에 빈 슬롯이나 가방이 필요합니다!
+mod.chiselsandbits.result.void_excess=인벤토리가 가득 차서 초과된 조각은 모두 무효화되었습니다!
+
+mod.chiselsandbits.other.rotate.ccw=반시계방향으로 회전
+mod.chiselsandbits.other.rotate.cw=시계 방향으로 회전
+mod.chiselsandbits.other.mode=반지름 메뉴
+mod.chiselsandbits.other.undo=실행 취소
+mod.chiselsandbits.other.redo=다시 실행
+mod.chiselsandbits.other.pickbit=조각 선택
+mod.chiselsandbits.other.offgrid=그리드 오프
+mod.chiselsandbits.other.add_to_clipboard=클립보드로 블럭 선택
+
+mod.chiselsandbits.other.roll_x=X 시계 방향으로 회전
+mod.chiselsandbits.other.roll_z=Z 시계 방향으로 회전
+
+mod.chiselsandbits.help.shiftdetails=<자세한 내용은 Shift 키를 눌러주세요>
+mod.chiselsandbits.help.empty=비어 있음
+mod.chiselsandbits.help.filled=가득 참
+
+mod.chiselsandbits.help.chiseled_block={}를 누르면 배치가 됩니다.;{}를 누르면 섬세하게 설치가 됩니다.;쉬프트+휠을 사용하여 설치 방향을 바꿀 수 있습니다.
+mod.chiselsandbits.help.bit_bag=자동으로 조각을 저장합니다.
+mod.chiselsandbits.help.wrench=회전할 블록 {}
+mod.chiselsandbits.help.bit={}시 조각 회수, {}시 조각 설치;메뉴를 표시하려면 {}키를 눌러주세요.
+mod.chiselsandbits.help.positiveprint={}시 디자인 복사;{}시 인벤토리의 조각을 사용해 복사된 디자인대로 설치.;쉬프트 + 휠로 회전할 수 있습니다;{}를 눌러 메뉴를 열 수 있습니다.
+mod.chiselsandbits.help.negativeprint={}시 디자인 복사;{}시 블럭을 복사된 디자인으로 조각.;쉬프트 + 휠로 회전할 수 있습니다.
+mod.chiselsandbits.help.mirrorprint={}시 디자인 복사;조합대로 설치용, 조각용 복사 종이에 디자인을 찍어낼 수 있습니다.
+mod.chiselsandbits.help.chisel={}시 조각이 가능합니다;{}클릭 시 메뉴를 표시합니다.
+mod.chiselsandbits.help.bitsaw=블럭 또는 조각된 블럭을 절단할 수 있습니다.
+mod.chiselsandbits.help.bittank=액체로 채우고 액체 조각을 얻으세요.
+mod.chiselsandbits.help.tape_measure={} + 드래그로 가이드라인을 만들 수 있습니다.;{} + {}을 눌러 가이드라인을 지울 수 있습니다.;{}를 눌러서 메뉴를 볼 수 있습니다.
+
+mod.chiselsandbits.help.chiseled_block.long=Left-click to place the block. Sneak while placing to ignore block grid. Shift + Mouse Wheel to cycle placement rotation.
+mod.chiselsandbits.help.bit_bag.long=Automatically re-stocks, and store bits when you exceed or go under a stack in your inventory.\n\nCraft with any dye to color.
+mod.chiselsandbits.help.wrench.long=Right-click blocks to rotate them around the axis of the face you click.
+mod.chiselsandbits.help.tape_measure.long=Left-click to and drag to measure spaces. Sneak Use to remove previously created measurements. Use the menu to switch between measurement modes.
+mod.chiselsandbits.help.bit.long=Left-click to chisel the highlighted area. Right-click to place at the designated area.
+mod.chiselsandbits.help.positiveprint.long=Right-click on a chiseled block to write the design. Right-click on a block to chisel it adding and removing any bits that do not match the design. You can also place the design in a crafting table and Craft with bits/bags. Shift + Mouse Wheel can be used to cycle rotations without moving.
+mod.chiselsandbits.help.negativeprint.long=Right-click on a chiseled block to write the design. Right-click on a block to chisel it removing any bits that are not in the negative design. Shift + Mouse Wheel can be used to cycle rotations without moving.
+mod.chiselsandbits.help.mirrorprint.long=Right-click on a chiseled block face on wish to mirror from, clicking an east facing face will mirror it along the east->west axis. Craft written design with a positive or negative design to transfer the mirror image to the type of design you want.
+mod.chiselsandbits.help.chisel.long=Left-click any compatible block to chisel. Right-click to cycle through chisel modes, you can also use Shift + Mouse Wheel to cycle modes.
+mod.chiselsandbits.help.bitsaw.long=Craft this saw with supported blocks, or symmetrical chiseled blocks to cut them in half. The axis of cutting is determined by the position of the saw related the block, cut along the X axis with the saw to the side, along the Y axis if the saw is above or below, and Z is if the saw is diagonal.
+mod.chiselsandbits.help.bittank.long=Right-click with a bucket to insert/remove fluid. Right-click without a bucket to extract bits from a filled tank, shift+right click inserts bits in your hand, inserting with an empty hand will attempt to insert as many bits as possible. You can use automation such as hoppers to extract bits from a tank with fluid in it.
+
+mod.chiselsandbits.help.nobind=키 바인딩이 없습니다.
+mod.chiselsandbits.help.leftshift=왼쪽 쉬프트
+mod.chiselsandbits.help.rightshift=오른쪽 쉬프트
+mod.chiselsandbits.help.leftalt=왼쪽 알트
+mod.chiselsandbits.help.rightalt=오른쪽 알트
+mod.chiselsandbits.help.trash=가방 내용물을 삭제하고 항목을 보관하여 필터링합니다.
+mod.chiselsandbits.help.sort=압축 및 결합
+mod.chiselsandbits.help.trashitem=%s만 삭제
+mod.chiselsandbits.help.reallytrash=모두 삭제를 하려면 다시 클릭해주세요.
+mod.chiselsandbits.help.reallytrash_blank=다시 클릭하여 %s 삭제를 확인해주세요.
+mod.chiselsandbits.help.trash.invalid=%s을(를) 삭제할 수 없습니다.
+
+mod.chiselsandbits.pretty.axis-y=위/아래
+mod.chiselsandbits.pretty.axis-x=동/서
+mod.chiselsandbits.pretty.axis-z=남/북
+
+mod.chiselsandbits.pretty.facing-up=위
+mod.chiselsandbits.pretty.facing-down=아래
+mod.chiselsandbits.pretty.facing-east=동
+mod.chiselsandbits.pretty.facing-west=서
+mod.chiselsandbits.pretty.facing-north=남
+mod.chiselsandbits.pretty.facing-south=북
+
+chiselsandbits.color.white=흰색
+chiselsandbits.color.orange=주황색
+chiselsandbits.color.magenta=마젠타색
+chiselsandbits.color.lightBlue=하늘색
+chiselsandbits.color.yellow=노란색
+chiselsandbits.color.lime=라임색
+chiselsandbits.color.pink=분홍색
+chiselsandbits.color.gray=회색
+chiselsandbits.color.silver=밝은 회색
+chiselsandbits.color.cyan=청록색
+chiselsandbits.color.purple=보라색
+chiselsandbits.color.blue=파란색
+chiselsandbits.color.brown=갈색
+chiselsandbits.color.green=녹색
+chiselsandbits.color.red=빨간색
+chiselsandbits.color.black=검정색
+
+commands.setbit.usage=/ setbit <x> <y> <z> <bitx> <bity> <bitz> <TileName> [dataValue]
+commands.setbit.outOfWorld=세계 밖에 블록을 배치 할 수 없습니다.
+commands.setbit.noChange=조각을 배치 할 수 없습니다.
+commands.setbit.success=조각 배치
+commands.setbit.cannotChiselBlock=블록을 끌 수 없습니다.
+commands.setbit.invalidState=유효하지 않은 조각 유형입니다.
+commands.setbit.spaceOccupied=조각을 배치 할 수 없습니다.
+
+mod.chiselsandbits.config.maxUndoLevel=Max Undo Level
+mod.chiselsandbits.config.persistCreativeClipboard=Save/Load Creative Clipboard Contents
+mod.chiselsandbits.config.fluidBitsAreClickThrough=Click through Fluid Bits.
+mod.chiselsandbits.config.addBrokenBlocksToCreativeClipboard=Add Broken Blocks to Creative clipboard
+mod.chiselsandbits.config.creativeClipboardSize=Creative Clip Board Size
+mod.chiselsandbits.config.creativeClipboardSize.tooltip=Number of items that can be stored on the creative clipboard before they begin to be removed, 0 will disable it.
+mod.chiselsandbits.config.ShowBitsInJEI=Show Bits in JEI
+mod.chiselsandbits.config.maxDrawnRegionSize=Max Drawn Region Size
+mod.chiselsandbits.config.showUsage=Add help text to item descriptions
+mod.chiselsandbits.config.invertBitBagFullness=Invert damage bar on bit-bag.
+mod.chiselsandbits.config.enableChiselMode_Plane=Enable Mode - Plane
+mod.chiselsandbits.config.enableChiselMode_ConnectedPlane=Enable Mode - Connected Plane
+mod.chiselsandbits.config.enableChiselMode_ConnectedMaterial=Enable Mode - Connected Material
+mod.chiselsandbits.config.enableChiselMode_SameMaterial=Enable Mode - Same Material
+mod.chiselsandbits.config.enableChiselMode_Line=Enable Mode - Line
+mod.chiselsandbits.config.enableChiselMode_SmallCube=Enable Mode - Small Cube
+mod.chiselsandbits.config.enableChiselMode_LargeCube=Enable Mode - Large Cube
+mod.chiselsandbits.config.enableChiselMode_MediumCube=Enable Mode - Medium Cube
+mod.chiselsandbits.config.enableChiselMode_DrawnRegion=Enable Mode - Drawn Region
+mod.chiselsandbits.config.enableChiselMode_Snap2=Enable Mode - Grid Snapped 1/8 Cube
+mod.chiselsandbits.config.enableChiselMode_Snap4=Enable Mode - Grid Snapped 1/4 Cube
+mod.chiselsandbits.config.enableChiselMode_Snap8=Enable Mode - Grid Snapped 1/2 Cube
+
+mod.chiselsandbits.config.enablePositivePatternMode_Additive=Enable Mode - Additive
+mod.chiselsandbits.config.enablePositivePatternMode_Impose=Enable Mode - Impose
+mod.chiselsandbits.config.enablePositivePatternMode_Placement=Enable Mode - Placement
+mod.chiselsandbits.config.enablePositivePatternMode_Replace=Enable Mode - Replace
+
+mod.chiselsandbits.config.enableTapeMeasure_Bit=Enable Mode - Bit
+mod.chiselsandbits.config.enableTapeMeasure_Block=Enable Mode - Block
+mod.chiselsandbits.config.enableTapeMeasure_Distance=Enable Mode - Distance
+
+mod.chiselsandbits.config.enableToolbarIcons=Show mode icon for chisel in tool bar
+mod.chiselsandbits.config.perChiselMode=Store selected mode per chisel
+mod.chiselsandbits.config.chatModeNotification=Notify mode changes with chat
+mod.chiselsandbits.config.itemNameModeDisplay=Notify mode changes with tool highlight
+mod.chiselsandbits.config.dynamicModelFaceCount=Max faces for static render
+mod.chiselsandbits.config.dynamicModelFaceCount.tooltip=Models more complicated than this will use dynamic rendering.
+mod.chiselsandbits.config.dynamicModelRange=Max Distance for dynamic render
+mod.chiselsandbits.config.dynamicModelRange.tooltip=Dynamically rendered blocks outside of this range will not render.
+mod.chiselsandbits.config.dynamicModelMinimizeLatancy=Minimize Latency for dynamic renders
+mod.chiselsandbits.config.dynamicModelMinimizeLatancy.tooltip=Disabling can improve performance at the cost of responsiveness.
+mod.chiselsandbits.config.dynamicMaxConcurrentTessalators=Maximum Number of Concurrent Updates
+mod.chiselsandbits.config.dynamicMaxConcurrentTessalators.tooltip=When this number is exceeded updates will begin pausing to prevent memory saturation.
+mod.chiselsandbits.config.damageTools=Tools take damage
+mod.chiselsandbits.config.enablePositivePrintCrafting=Crafting with Positive Chisel Design
+mod.chiselsandbits.config.enablePositivePrintCrafting.tooltip=Crafting a positive design with bits/bags of bits will let you craft the block.
+mod.chiselsandbits.config.enableStackableCrafting=Craft Chiseled Blocks to Remove Rotation
+mod.chiselsandbits.config.enableStackableCrafting.tooltip=You can use this feature to stack the same design by stripping the rotation.
+mod.chiselsandbits.config.enableNegativePrintInversionCrafting=Invert Negative Chisel Designs
+mod.chiselsandbits.config.enableNegativePrintInversionCrafting.tooltip=Craft a filled negative design with a blank negative design.
+mod.chiselsandbits.config.enableBitBag=Enable Chiseled Bit Bag
+mod.chiselsandbits.config.enableNegativePrint=Enable Negative Chisel Design
+mod.chiselsandbits.config.enablePositivePrint=Enable Positive Chisel Design
+mod.chiselsandbits.config.enableMirrorPrint=Enable Mirror Chisel Design
+mod.chiselsandbits.config.enableChisledBits=Enable Chiseled Bits
+mod.chiselsandbits.config.enableStoneChisel=Enable Stone Chisel
+mod.chiselsandbits.config.enableIronChisel=Enable Iron Chisel
+mod.chiselsandbits.config.enableGoldChisel=Enable Golden Chisel
+mod.chiselsandbits.config.enableDiamondChisel=Enable Diamond Chisel
+mod.chiselsandbits.config.enableWoodenWrench=Enable Wooden Wrench
+mod.chiselsandbits.config.enableChiselToolHarvestCheck=Check tool types / levels for chisels
+mod.chiselsandbits.config.enableChiselToolHarvestCheck.tooltip=To harvest obsidian bits you require a dimaond chisel.
+mod.chiselsandbits.config.enableChiselToolHarvestCheckTools=Tool types emulated by chisels
+mod.chiselsandbits.config.enableToolHarvestLevels=Check tool level when breaking blocks
+mod.chiselsandbits.config.enableToolHarvestLevels.tooltip=Breaking an primary obsidian chiseled block will require a diamond level tool.
+mod.chiselsandbits.config.enableBitLightSource=Chiseled blocks can emit light
+mod.chiselsandbits.config.enableBitLightSource.tooltip=When disabled light emiting bits will simply glow and the block will emit no light level.
+mod.chiselsandbits.config.bitLightPercentage=Percentage of block for max light level
+mod.chiselsandbits.config.compatabilityMode=Enhance Mod compatibility
+mod.chiselsandbits.config.enableAPITestingItem=Enable API Testing Item
+mod.chiselsandbits.config.bagStackSize=Bit Bag - Bit Stack Size
+mod.chiselsandbits.config.bagStackSize.tooltip=Stack size of bits in the bag: Minimum of 64, maximum of 99,999
+mod.chiselsandbits.config.stoneChiselUses=Stone Chisel Uses
+mod.chiselsandbits.config.ironChiselUses=Iron Chisel Uses
+mod.chiselsandbits.config.diamondChiselUses=Diamond Chisel Uses
+mod.chiselsandbits.config.goldChiselUses=Gold Chisel uses
+mod.chiselsandbits.config.wrenchUses=Wrench Uses
+mod.chiselsandbits.config.logEligibilityErrors=Log Exceptions when calculating Eligibility
+mod.chiselsandbits.config.disableCustomVertexFormats=Disable Using Custom Vertex Formats
+mod.chiselsandbits.config.enableModelCompression=Compress Vertex Data In Memory
+mod.chiselsandbits.config.useGetLightValue=Use Get Light Value to get light value of blocks.
+mod.chiselsandbits.config.enableFaceLightmapExtraction=Use Model Analysis to get Lightmap Data.
+mod.chiselsandbits.config.enableRightClickModeChange=Cycle Chisel mode on right click
+mod.chiselsandbits.config.enableSetBitCommand=Enable /setbit Command
+mod.chiselsandbits.config.maxMillisecondsPerBlock=Max Milliseconds Per Block
+mod.chiselsandbits.config.maxMillisecondsUploadingPerFrame=Max Milliseconds Uploading/Cycle
+mod.chiselsandbits.config.maxTapeMeasures=Max Tape Measures
+mod.chiselsandbits.config.displayMeasuringTapeInChat=Display Measuring Tape In Chat
+mod.chiselsandbits.config.defaultToDynamicRenderer=Default To Dynamic Renderer
+mod.chiselsandbits.config.forceDynamicRenderer=Disable Static Renderer
+mod.chiselsandbits.config.useVBO=Use VBOs
+mod.chiselsandbits.config.defaultToDynamicRenderer.tooltip=By default C&B uses the static renderer, and changes to the Dynamic Renderer on update, This setting reverse that; After determining the detail of the model it will decide to revert to the static renderer, helpful for more complicated scenes that cause stalls when using the static renderer.
+mod.chiselsandbits.config.forceDynamicRenderer.tooltip=Debug Setting, that disable the static render entirely.
+mod.chiselsandbits.config.useVBO.tooltip=By Default uses the same setting as MC, but can be overridden.
+mod.chiselsandbits.config.blacklistTickingBlocks=Black List Ticking Blocks
+mod.chiselsandbits.config.radialMenuVolume='Click' volume for radial menu.
+mod.chiselsandbits.config.radialMenuVolume.tooltip=Setting to Zero will disable it.
+mod.chiselsandbits.config.enableVivecraftCompatibility=Enable Vivecraft Compatibility
+mod.chiselsandbits.config.enableChiselCrafting=Enable Chiseling Blocks in Crafting Table
+mod.chiselsandbits.config.dynamicRenderFullChunksOnly=Dynamic Renderer Full Chunks Only
+mod.chiselsandbits.config.dynamicRenderFullChunksOnly.tooltip=Prevents Subdividing of dynamically rendered chunks into single blocks. This increases performance for most common cases ( chunks with a handful of complicated blocks ), but decreases performance for the worst cases ( chunks full of super complicated designs ).
+mod.chiselsandbits.config.requireBagSpace=Require Inventory/Bag Space
+mod.chiselsandbits.config.requireBagSpace.tooltip=Requires there to be an empty slot in a bag or in the player's inventory before allowing them to use the chisel.
+mod.chiselsandbits.config.voidExcessBits=Void Excess Bits
+mod.chiselsandbits.config.voidExcessBits.tooltip=Voids any bits that couldn't be fit into a bag or your inventory. Improves server performance. The undo action could have issues as some bits are voided.
