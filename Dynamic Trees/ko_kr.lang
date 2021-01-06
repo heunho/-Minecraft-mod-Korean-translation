@@ -1,0 +1,75 @@
+# 한글패치 : 흔호
+# 블로그 주소 : https://eye-it.tistory.com
+# 유튜브 주소 : https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
+
+itemGroup.dynamictrees=다이나믹 트리
+
+tile.dynamictrees:rootydirt.name=뿌리내려진 흙
+tile.dynamictrees:rootysand.name=뿌리내려진 모래
+
+tile.dynamictrees:leaves0.name=역동적인 나뭇잎
+tile.dynamictrees:leaves1.name=역동적인 나뭇잎
+
+tile.dynamictrees:oakbranch.name=역동적인 참나무
+tile.dynamictrees:sprucebranch.name=역동적인 가문비나무
+tile.dynamictrees:birchbranch.name=역동적인 자작나무
+tile.dynamictrees:junglebranch.name=역동적인 정글 나무
+tile.dynamictrees:darkoakbranch.name=역동적인 검은 참나무
+tile.dynamictrees:acaciabranch.name=역동적인 아카시아 나무
+tile.dynamictrees:cactusbranch.name=역동적인 선인장
+
+species.dynamictrees:oak.name=역동적인 참나무
+species.dynamictrees:oakswamp.name=역동적인 늪지 나무
+species.dynamictrees:spruce.name=역동적인 가문비나무
+species.dynamictrees:megaspruce.name=역동적인 큰 가문비나무
+species.dynamictrees:birch.name=역동적인 자작나무
+species.dynamictrees:jungle.name=역동적인 정글 나무
+species.dynamictrees:megajungle.name=역동적인 큰 정글 나무
+species.dynamictrees:darkoak.name=역동적인 검은 참나무
+species.dynamictrees:acacia.name=역동적인 아카시아 나무
+species.dynamictrees:apple.name=역동적인 사과
+species.dynamictrees:cactus.name=역동적인 선인장
+
+
+item.dynamictrees:oakseed.name=참나무 도토리
+item.dynamictrees:spruceseed.name=가문비나무 구과
+item.dynamictrees:birchseed.name=자작나무 꽃차례
+item.dynamictrees:jungleseed.name=정글 나무 꼬투리
+item.dynamictrees:darkoakseed.name=검은 참나무 도토리
+item.dynamictrees:acaciaseed.name=아카시아 나무 씨앗
+item.dynamictrees:appleseed.name=사과 씨앗
+item.dynamictrees:cactusseed.name=선인장 씨앗
+
+item.dynamictrees:dendropotion.biochar.name=바이오숯 포션
+item.dynamictrees:dendropotion.depletion.name=고갈의 포션
+item.dynamictrees:dendropotion.defoliance.name=적엽의 포션
+item.dynamictrees:dendropotion.burgeoning.name=급성장의 포션
+item.dynamictrees:dendropotion.fertility.name=풍요의 포션
+item.dynamictrees:dendropotion.persistance.name=잔존의 포션
+item.dynamictrees:dendropotion.transform.name=변화의 포션
+
+item.dynamictrees:dirtbucket.name=흙 양동이
+item.dynamictrees:staff.name=자연의 지팡이
+tile.dynamictrees:bonsaipot.name=분재 화분
+
+commands.dynamictrees.usage=/dt <%s> [args]
+commands.dynamictrees.repop.usage=/dt repop
+commands.dynamictrees.repop.run=Repopulating worldgen database
+commands.dynamictrees.setree.usage=/dt settree <x> <y> <z> <species> [joCode] [turns]
+commands.dynamictrees.getree.usage=/dt gettree <x> <y> <z>
+commands.dynamictrees.soillife.usage=/dt soillife <x> <y> <z> [life]
+commands.dynamictrees.createstaff.usage=/dt createstaff <x> <y> <z> [species] [joCode] [color] [readonly] [maxUses]
+commands.dynamictrees.growpulse.usage=/dt growpulse <x> <y> <z>
+commands.dynamictrees.killtree.usage=/dt killtree <x> <y> <z>
+commands.dynamictrees.rotatejocode.usage=/dt rotatejocode <joCode> <turns>
+
+
+commands.dynamictrees.setree.specieserror=Couldn't find species %s!
+commands.dynamictrees.createstaff.specieserror=Couldn't find species %s!
+commands.dynamictrees.createstaff.colorerror=%s is not a decodable color
+commands.dynamictrees.createstaff.readonlyerror=%s is not a boolean
+commands.dynamictrees.createstaff.maxuseserror=%s is not a valid positive integer
+commands.dynamictrees.soillife.lifeerror=%s is not a valid integer
+commands.dynamictrees.soillife.notreeerror=No tree found at %s
+commands.dynamictrees.growpulse.norootyerror=No rooty dirt found at %s
+commands.dynamictrees.rotatejocode.turnserror=%s is not a valid integer
