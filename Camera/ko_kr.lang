@@ -1,0 +1,30 @@
+# 한글패치 : 흔호
+# 블로그 주소 : https://eye-it.tistory.com
+# 유튜브 주소 : https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
+
+item.camera.name=카메라
+item.image.name=사진
+item.image_frame.name=사진 액자
+item.album.name=앨범
+message.no_paper=종이 없음
+message.image_cooldown=촬영 준비중입니다. 다시 시도해주세요.
+tooltip.image_time=%s에 촬영한 사진
+tooltip.image_owner=%s이(가) 촬영한 사진
+button.prev=이전
+button.next=다음
+gui.camera.choosefilter=필터를 선택해주세요.
+shader.none=없음
+shader.black_and_white=검정색과 흰색
+shader.sepia=세피아
+shader.desaturated=불포화
+shader.overexposed=과노출
+shader.oversaturated=과포화
+shader.blurry=흐릿함
+shader.inverted=반대
+gui.frame.resize=액자 크기 조정
+button.frame.left=왼쪽
+button.frame.right=오른쪽
+button.frame.up=위
+button.frame.down=아래
+key.next_image=다음 이미지
+key.previous_image=이전 이미지
