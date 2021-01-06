@@ -1,0 +1,258 @@
+# 한글패치 : 흔호
+# 블로그 주소 : https://eye-it.tistory.com
+# 유튜브 주소 : https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
+
+# 크리에이티브 탭
+itemGroup.mowziesmobs.creativeTab=Mowzie's Mobs
+
+# 엔티티
+entity.foliaath.name=폴리아스
+entity.ferrous_wroughtnaut.name=철의 로트넛
+entity.baby_foliaath.name=아기 폴리아스
+entity.barakoan_barakoana.name=바라코아
+entity.barakoan_player.name=바라코아
+entity.barakoana.name=바라코아나
+entity.barakoaya.name=바라코아야
+entity.barako.name=태양의 족장, 바라코
+entity.frostmaw.name=프로스트마우
+entity.grottol.name=그로톨
+entity.lantern.name=랜턴
+entity.naga.name=나가
+entity.boulder.name=볼더
+
+# 품목
+item.foliaathSeed.name=폴리아스 씨앗
+item.mobRemover.name=몹 제거제
+item.wroughtAxe.name=금속의 도끼
+item.wroughtHelmet.name=금속의 투구
+item.barakoaMask.fury.name=분노의 가면
+item.barakoaMask.fear.name=공포의 가면
+item.barakoaMask.rage.name=분노의 가면
+item.barakoaMask.bliss.name=행복의 가면
+item.barakoaMask.misery.name=불행의 가면
+item.barakoMask.name=솔의 얼굴
+item.dart.name=다트
+item.spear.name=창
+item.blowgun.name=블로우 건
+item.grantSunsBlessing.name=태양의 축복 받기
+item.testStructure.name=시험 구조
+item.iceCrystal.name=얼음 수정
+item.earthTalisman.name=지구 부적
+
+item.blowgun.text.0=빠른 장전
+item.blowgun.text.1=짧은 범위
+item.blowgun.text.2=다트만 발사가능
+
+item.wroughtAxe.text.0=절대 안부셔짐
+item.wroughtAxe.text.1=우클릭 하여 크게 휘두르며 공격
+item.wroughtAxe.text.2=쉬프트-우클릭하여 지면을 내리찍어 충격파 공격
+
+item.barakoMask.text.0=절대 안부셔짐
+item.barakoMask.text.1=바라코아 가면를 우클릭 시 바라코아 소환
+item.barakoMask.text.2=바라코아를 보고 우클릭 시 가면 회수
+
+item.barakoaMask.fear.text.0=신속함 부여
+item.barakoaMask.fear.text.1=내가 궁금하다면 ...?
+item.barakoaMask.rage.text.0=성급함 부여
+item.barakoaMask.rage.text.1=내가 궁금하다면 ...?
+item.barakoaMask.misery.text.0=저항 부여
+item.barakoaMask.misery.text.1=내가 궁금하다면 ...?
+item.barakoaMask.bliss.text.0=점프 강화 부여
+item.barakoaMask.bliss.text.1=내가 궁금하다면 ...?
+item.barakoaMask.fury.text.0=힘 부여
+item.barakoaMask.fury.text.1=내가 궁금하다면 ...?
+
+item.dart.text.0=블로우 건에만 사용할 수 있습니다
+item.dart.text.1=독 표적
+
+item.foliaathSeed.text.0=풀에 난 식물
+item.foliaathSeed.text.1=반나절마다, 아기 폴리아스는 배고프게 됩니다
+item.foliaathSeed.text.2=먹을 고기를 던져줘
+item.foliaathSeed.text.3=2 일 후, 폴리아스는 완전히 자랍니다.
+
+item.grantSunsBlessing.text.0=20분 동안 태양의 축복 부여
+item.grantSunsBlessing.text.1=빈 손으로 땅을 우클릭하여 태양의 타격 발사
+item.grantSunsBlessing.text.2=빈 손으로 쉬프트+우클릭하여 태양 광선을 발사 (2분 소요).
+
+item.earthTalisman.text.0=크리에이티브 모드에서만 가능
+item.earthTalisman.text.1=지리를 휘두르기 위해 인벤토리에 배치
+item.earthTalisman.text.2=빈 손으로 흙을 오른쪽 클릭하여 볼더를 생성하십시오
+item.earthTalisman.text.3=발사체를 발사하여 발사체로 발사
+item.earthTalisman.text.4=더 큰 바위를 생성하려면 마우스 오른쪽 버튼을 클릭하십시오
+item.earthTalisman.text.5=공중에있는 동안 두 번 누르고 몰래 터널링을 시작하십시오 (아직 서버 멀티 플레이어에서 작동하지 않음)
+item.earthTalisman.text.6=발굴하려는 방향을보십시오
+item.earthTalisman.text.7=수면으로 몰래 들어와 터널링 중지
+
+item.mobRemover.text.0=Mowzie's Mobs mob의 몹을 제거하려면 좌클릭
+
+item.wroughtHelmet.text.0=절대 안부셔짐
+
+item.spear.text.0=공격범위를 3.5블록 확장
+item.spear.text.1=1/3확률로 대부분의 동물을 즉사 시킬수 있다
+
+item.icecrystal.text.0=우클릭하여 차가운 돌개바람을 일으킬 수 있다
+item.icecrystal.text.1=인벤토리에 있는동안 재충전
+
+item.capturedGrottol.name=포획한 그로톨
+
+item.glowingJelly.name=야광 젤리
+item.glowingJelly.text.0=먹게 되면 야간 투시 효과를 얻습니다.
+
+item.nagaFang.name=나가 송곳니
+item.nagaFang.text.0=독 저항의 물약을 추출하는 데 사용
+
+item.nagaFangDagger.name=나가 송곳니 단검
+item.nagaFangDagger.text.0=독 데미지
+item.nagaFangDagger.text.1=뒤에서 추가 피해를 입힙니다.
+
+# 블록
+tile.campfire.name=캠프 파이어
+tile.paintedAcacia.name=채색된 아카시아나무
+tile.paintedAcaciaSlab.name=채색된 아카시아 나무 반 블록
+tile.grottol.name=그로톨
+
+# 물약
+potion.sunsBlessing=일의 축복
+potion.geomancy=우미
+potion.frozen=냉동
+potion.poisonResist=독 저항
+potion.effect.poisonResist=독 저항의 물약
+splash_potion.effect.poisonResist=독 저항의 물약
+lingering_potion.effect.poisonResist=진한 독 저항의 물약
+tipped_arrow.effect.poisonResist=독 저항의 화살
+
+# 타일 엔티티
+
+
+# 컨테이너
+entity.barakoaya.trade=바라코아
+entity.barako.trade=바라코아, 탸양의 족장
+entity.barako.trade.button.text=무역
+entity.barako.trade.button.hover=무료로 보충하고 나중에 반환
+entity.barako.replenish.button.text=보충
+entity.barako.replenish.button.hover=무료로 축복을 보충
+
+# 죽음의 메시지
+death.attack.dart=%1$s이(가) %2$s에 맞고 죽음.
+
+
+# Config
+config.mowziesmobs.mobs=Mobs
+config.mowziesmobs.mobs.tooltip=Controls for all of Mowzie's Mobs mobs
+config.mowziesmobs.foliaath=폴리아스
+config.mowziesmobs.foliaath.tooltip=
+config.mowziesmobs.ferrous_wroughtnaut=Ferrous Wroughtnaut
+config.mowziesmobs.has_boss_bar=Display Boss Bar
+config.mowziesmobs.heals_out_of_battle=Heal While Not In Battle
+config.mowziesmobs.ferrous_wroughtnaut.tooltip=
+config.mowziesmobs.barakoa=Barakoa
+config.mowziesmobs.barakoa.tooltip=Controls for Barakoana hunting packs and Barakoa villagers
+config.mowziesmobs.barako=Barako, the Sun Chief
+config.mowziesmobs.barako.tooltip=Controls for Barako, the Sun Chief and Barakoa villages
+config.mowziesmobs.frostmaw=Frostmaw
+config.mowziesmobs.frostmaw.tooltip=
+config.mowziesmobs.stealable_ice_crystal=Stealable Ice Crystals
+config.mowziesmobs.grottol=Grottol
+config.mowziesmobs.grottol.tooltip=
+config.mowziesmobs.lantern=Lantern
+config.mowziesmobs.lantern.tooltip=
+config.mowziesmobs.glow_effect=Display Glow Effect
+config.mowziesmobs.naga=Naga
+config.mowziesmobs.naga.tooltip=
+
+config.mowziesmobs.spawn_data=Spawn Controls
+config.mowziesmobs.spawn_data.tooltip=
+config.mowziesmobs.spawn_rate=Spawn Rate
+config.mowziesmobs.min_group_size=Min Group Size
+config.mowziesmobs.max_group_size=Max Group Size
+config.mowziesmobs.biome_data=Allowed Biomes
+config.mowziesmobs.biome_type=Biome Types
+config.mowziesmobs.biome_whitelist=Biome Whitelist Override
+config.mowziesmobs.biome_blacklist=Biome Blacklist Override
+config.mowziesmobs.dimensions=Allowed Dimensions
+config.mowziesmobs.height_min=Minimum Height
+config.mowziesmobs.height_max=Maximum Height
+config.mowziesmobs.needs_darkness=Needs Darkness
+config.mowziesmobs.requires_see_sky=Needs to See Sky
+config.mowziesmobs.requires_cant_see_sky=Needs to Not See Sky
+config.mowziesmobs.allowed_blocks=Allowed Blocks
+
+config.mowziesmobs.generation_data=Generation Controls
+config.mowziesmobs.generation_data.tooltip=
+config.mowziesmobs.generation_chance=Generation Frequency
+config.mowziesmobs.generation_frequency=Generation Frequency
+
+config.mowziesmobs.combat_data=Combat Controls
+config.mowziesmobs.combat_data.tooltip=
+config.mowziesmobs.attack_multiplier=Attack Damage Multiplier
+config.mowziesmobs.health_multiplier=Health Multiplier
+
+config.mowziesmobs.tools_and_abilities=Tools and Abilities
+config.mowziesmobs.tools_and_abilities.tooltip=Controls for mob drops, weapons, powers, and other loot used by players
+config.mowziesmobs.axe_of_a_thousand_metals=Axe of a Thousand Metals
+config.mowziesmobs.axe_of_a_thousand_metals.tooltip=
+config.mowziesmobs.breakable=Breakable
+config.mowziesmobs.wrought_helm=Wrought Helm
+config.mowziesmobs.wrought_helm.tooltip=
+config.mowziesmobs.barakoa_spear=Spear
+config.mowziesmobs.barakoa_spear.tooltip=
+config.mowziesmobs.barakoa_mask=Barakoa Masks
+config.mowziesmobs.barakoa_mask.tooltip=
+config.mowziesmobs.sol_visage=Sol Visage
+config.mowziesmobs.sol_visage.tooltip=
+config.mowziesmobs.blow_gun=Blowgun
+config.mowziesmobs.blow_gun.tooltip=
+config.mowziesmobs.poison_duration=Poison Duration
+config.mowziesmobs.ice_crystal=Ice Crystal
+config.mowziesmobs.ice_crystal.tooltip=
+config.mowziesmobs.ice_crystal_breakable=Breakable
+config.mowziesmobs.ice_crystal_attack_multiplier=
+config.mowziesmobs.durability=Durability
+config.mowziesmobs.naga_fang_dagger=Naga Fang Dagger
+config.mowziesmobs.naga_fang_dagger.tooltip=
+config.mowziesmobs.bonus_damage=Bonus Damage
+config.mowziesmobs.geomancy_attack_multiplier=Geomancy Attack Damage Multiplier
+config.mowziesmobs.suns_blessing_attack_multiplier=Sun's Blessing Attack Damage Multiplier
+
+config.mowziesmobs.tool_data=Tool Controls
+config.mowziesmobs.tool_data.tooltip=
+config.mowziesmobs.attack_damage=Attack Damage
+config.mowziesmobs.attack_speed=Attack Speed
+
+config.mowziesmobs.armor_data=Armor Controls
+config.mowziesmobs.armor_data.tooltip=
+config.mowziesmobs.damage_reduction=Damage Reduction
+config.mowziesmobs.toughness=Toughness
+
+config.mowziesmobs.general=General
+config.mowziesmobs.general.tooltip=Miscellaneous controls and settings
+config.mowziesmobs.freeze_blacklist=Freeze-Immune Mobs
+
+
+# Advancements
+advancements.mowziesmobs.root.title=Mowzie's Mobs
+advancements.mowziesmobs.root.description=Mowzie 's Mobs에 오신 것을 환영합니다!
+advancements.mowziesmobs.kill_barako.title=강탈자
+advancements.mowziesmobs.kill_barako.description=태양 족장, 바라코아를 처치하세요.
+advancements.mowziesmobs.kill_ferrous_wroughtnaut.title=덩치가 클수록...
+advancements.mowziesmobs.kill_ferrous_wroughtnaut.description=철의 로트넛을 처치하세요.
+advancements.mowziesmobs.kill_foliaath.title=식인 꽃
+advancements.mowziesmobs.kill_foliaath.description=폴리아스를 처치하세요.
+advancements.mowziesmobs.kill_barakoana.title=가장 무도회
+advancements.mowziesmobs.kill_barakoana.description=바라코아를 처치하세요.
+advancements.mowziesmobs.kill_frostmaw.title=무례한 각성
+advancements.mowziesmobs.kill_frostmaw.description=프로스트마우를 처치하세요.
+advancements.mowziesmobs.kill_naga.title=작은 드래곤
+advancements.mowziesmobs.kill_naga.description=나가를 처치하세요.
+advancements.mowziesmobs.kill_grottol.title=이 괴물아...
+advancements.mowziesmobs.kill_grottol.description=그로톨을 처치하세요.
+advancements.mowziesmobs.sneak_village.title=잠복
+advancements.mowziesmobs.sneak_village.description=바라코아로 변장해 바라코아 마을에 잠입하세요.
+advancements.mowziesmobs.suns_blessing.title=핼리오멘서
+advancements.mowziesmobs.suns_blessing.description=태양의 축복을 받으세요.
+advancements.mowziesmobs.steal_ice_crystal.title=빅 브레인™ 시간
+advancements.mowziesmobs.steal_ice_crystal.description=프로스트마우에게서 얼음 결정을 훔치세요.
+advancements.mowziesmobs.kill_grottol_fortune.title=두배 아니면 아무것도!
+advancements.mowziesmobs.kill_grottol_fortune.description=행운의 곡괭이로 그로톨을 처치하세요.
+advancements.mowziesmobs.kill_grottol_silk_touch.title=실크 터치로 그로톨!
+advancements.mowziesmobs.kill_grottol_silk_touch.description=실크 터치 곡괭이로 그로톨을 처치하세요.
