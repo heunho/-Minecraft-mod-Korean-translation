@@ -1,0 +1,87 @@
+# 한글패치 : 흔호
+# 블로그 주소 : https://eye-it.tistory.com
+# 유튜브 주소 : https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
+
+itemGroup.wings=날개
+
+key.categories.wings=날개
+key.wings.fly=Fly
+
+tile.wings.fairyDustOre.name=요정 가루 광석
+tile.wings.amethystOre.name=자수정 광석
+
+item.wings.angelWings.name=천사 날개
+item.wings.slimeWings.name=슬라임 날개
+item.wings.blueButterflyWings.name=파란 나비 날개
+item.wings.monarchButterflyWings.name=모나크 나비 날개
+item.wings.fireWings.name=파이어 날개
+item.wings.batWings.name=박쥐 날개
+item.wings.fairyWings.name=요정 날개
+item.wings.evilWings.name=악마 날개
+item.wings.dragonWings.name=드래곤 날개
+item.wings.fairyDust.name=요정 가루
+item.wings.amethyst.name=자수정
+item.wings.batBlood.name=박쥐 피
+
+wings.dreamcatcher.jiu=JiU의 날개
+wings.dreamcatcher.sua=SuA의 날개
+wings.dreamcatcher.siyeon=Siyeon의 날개
+wings.dreamcatcher.handong=Handong의 날개
+wings.dreamcatcher.yoohyeon=Yoohyeon의 날개
+wings.dreamcatcher.dami=Dami의 날개
+wings.dreamcatcher.gahyeon=Gahyeon의 날개
+
+subtitles.wings.item.armor.equip_wings=Wings rustle
+
+wings/ores.tooltip=날개 광석 커스텀
+
+config.wings.ores.entry.fairy_dust=요정 가루 광석 생성
+config.wings.ores.entry.amethyst=자수정 광석 생성
+config.wings.ores.entry.fairy_dust.tooltip=Customize vein distribution and shape
+config.wings.ores.entry.amethyst.tooltip=Customize vein distribution and shape
+
+config.wings.ores.settings.size=크기
+config.wings.ores.settings.count=카운트
+config.wings.ores.settings.minHeight=최소 높이
+config.wings.ores.settings.maxHeight=최대 높이
+config.wings.ores.settings.size.tooltip=Vein size in blocks scaled by 8
+config.wings.ores.settings.count.tooltip=Vein generation attempt count
+config.wings.ores.settings.minHeight.tooltip=Vein placement from lowest Y level
+config.wings.ores.settings.maxHeight.tooltip=Vein placement to highest Y level
+
+wings/items.tooltip=날개 아이템 커스텀
+
+config.wings.items.entry.angel=Angel Wings Attributes
+config.wings.items.entry.slime=Slime Wings Attributes
+config.wings.items.entry.blue_butterfly=Blue Butterfly Wings Attributes
+config.wings.items.entry.monarch_butterfly=Monarch Butterfly Wings Attributes
+config.wings.items.entry.fire=Fire Wings Attributes
+config.wings.items.entry.bat=Bat Wings Attributes
+config.wings.items.entry.fairy=Fairy Wings Attributes
+config.wings.items.entry.evil=Evil Wings Attributes
+config.wings.items.entry.dragon=Dragon Wings Attributes
+config.wings.items.entry.angel.tooltip=Customize item attributes
+config.wings.items.entry.slime.tooltip=Customize item attributes
+config.wings.items.entry.blue_butterfly.tooltip=Customize item attributes
+config.wings.items.entry.monarch_butterfly.tooltip=Customize item attributes
+config.wings.items.entry.fire.tooltip=Customize item attributes
+config.wings.items.entry.bat.tooltip=Customize item attributes
+config.wings.items.entry.fairy.tooltip=Customize item attributes
+config.wings.items.entry.evil.tooltip=Customize item attributes
+config.wings.items.entry.dragon.tooltip=Customize item attributes
+
+config.wings.items.settings.requiredFlightSatiation=Required Flight Satiation
+config.wings.items.settings.flyingExertion=Flying Exertion
+config.wings.items.settings.requiredLandSatiation=Required Land Satiation
+config.wings.items.settings.landingExertion=Landing Exertion
+config.wings.items.settings.requiredFlightSatiation.tooltip=The satiety level required for flight
+config.wings.items.settings.flyingExertion.tooltip=The exertion amount for flight
+config.wings.items.settings.requiredLandSatiation.tooltip=The satiety level required to land
+config.wings.items.settings.landingExertion.tooltip=The exertion amount for landing
+config.wings.items.settings.durability=Item Durability
+config.wings.items.settings.durability.tooltip=Infinite durability specified by 0
+
+wings.tooltip=General Settings
+
+config.wings.wearObstructions=Wear Obstructions
+config.wings.wearObstructions.tooltip=Customize which items when worn in the chest slot obstruct wings in the baubles body slot.
