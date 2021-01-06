@@ -8,6 +8,7 @@ https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
 
 <h1>무슨 모드가 한글화 됐나요?</h1>
 ----------------------------------------------------
+
 하나부터 직접 번역한 파일
 ----------------------------------------------------
 <ul>
@@ -30,14 +31,14 @@ https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
 
 번역된 파일에서 오역 및 미번역 부분 추가 번역한 파일
 ----------------------------------------------------
-Biome O Plenty
-Dynamic Trees
-Electroblobs Wizardry (가이드북은 직접 번역)
-Journey Map
-Pam's HarvestCraft
-----------------------------------------------------
-번역된 파일에서 추가 번역된 파일 저작권 관련 문제가 있을 경우
-heunhorang@gmail.com 으로 메일 보내주세요!
+<ul>
+  <li>Biome O Plenty</li>
+  <li>Electroblobs Wizardry (가이드북은 직접 번역)</li>
+  <li>Journey Map</li>
+  <li>Pam's HarvestCraft</li>
+</ul>
+
+(번역된 파일에서 추가 번역된 파일 저작권 관련 문제가 있을 경우 heunhorang@gmail.com 으로 메일 보내주세요!)
 
 ----------------------------------------------------
 
