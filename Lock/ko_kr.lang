@@ -1,0 +1,34 @@
+# 한글패치 : 흔호
+# 블로그 주소 : https://eye-it.tistory.com
+# 유튜브 주소 : https://www.youtube.com/channel/UC0yHrqGH57g4thIiEBdGqpw
+
+# Creative tabs
+itemGroup.locks=자물쇠
+
+# Items
+item.locks.lock.name=자물쇠
+item.locks.lock_pick.name=자물쇠 따기
+item.locks.key.name=키
+item.locks.master_key.name=마스터 키
+item.locks.key_blank.name=미완성 키
+item.locks.key_ring.name=열쇠 고리
+
+# GUIs
+locks.gui.lockpicking.title=자물쇠 따기
+locks.gui.lockpicking.open=`ESC`를 눌러서 여세요.
+
+# Subtitles
+locks.subtitle.key_ring=키 징글
+locks.subtitle.lock.close=클릭 잠금
+locks.subtitle.lock.open=키가 잠금 설정 됨
+locks.subtitle.lock.rattle=자물쇠가 덜컹거림
+locks.subtitle.pin.fail=핀이 가볍게 딸깍거림
+locks.subtitle.pin.match=핀이 제자리에 찰칵 박힘
+
+# Tooltips
+locks.tooltip.id=ID: %s
+locks.tooltip.length=길이: %s
+locks.tooltip.strength=힘: %s
+
+# Status messages
+locks.status.locked=이 블록은 잠겨 있습니다.
